@@ -11,7 +11,7 @@
     	    
     	    <div class="corps">
         	    <?php
-        	        $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        	        $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         	        $reponse = $bdd->query('SELECT id, auteur, titre, contenu, DATE_FORMAT(date_creation, \'%d/%m/%Y à %Hh%i\') AS date_creation_fr FROM billets ORDER BY date_creation DESC LIMIT 0, 5');
         	
         	        while ($donnees = $reponse->fetch())
@@ -24,7 +24,7 @@
             	                </tr>
             	                
             	                <tr>
-            	                    <th rowspan="2"><img src="images/singe.jpg" alt="<?php echo $donnees['auteur']; ?>"/></th><th class="contenu" > <?php echo $donnees['contenu']; ?> </th>
+            	                    <th rowspan="2" class="photo"><img src="images/singe.jpg" alt="<?php echo $donnees['auteur']; ?>"/></th><th class="contenu" > <?php echo $donnees['contenu']; ?> </th>
             	                </tr>
             	                
             	                <tr>

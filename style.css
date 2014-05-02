@@ -148,7 +148,6 @@ figure
 
 .billet img
 {
-    max-width: 100%;
     margin-left: -5px;
 }
 
@@ -198,4 +197,15 @@ figure
 .contact
 {
     font-size: 1.2em;
+}
+
+.photo
+{
+    height: 60px;
+    width: 60px;
+}
+
+.photo img
+{
+    max-height: 100%;
 }
