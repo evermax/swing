@@ -10,6 +10,7 @@
 .corps
 {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*body
@@ -193,12 +194,6 @@ figure
     margin-top:0px;
 }
 
-/* PAGE CONTACTS */
-.contact
-{
-    font-size: 1.2em;
-}
-
 .photo
 {
     height: 60px;
@@ -209,3 +204,20 @@ figure
 {
     max-height: 100%;
 }
+
+/* PAGE CONTACTS */
+.contact
+{
+    font-size: 1.2em;
+}
+
+
+/* Footer */
+
+footer
+{
+    background:  url('images/separateur.png') repeat-x top;
+    padding-top: 15px;
+    text-align: center;
+}
+
