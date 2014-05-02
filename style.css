@@ -122,10 +122,11 @@ figure
 }
 
 /* News */
-.news
+.news table
 {
-    width:60%;
-    margin:auto;
+    width: 700px;
+    margin: auto;
+    border-collapse: collapse;
 }
 
 .news h1
@@ -133,19 +134,36 @@ figure
     text-align:center;
     background-color:black;
     color:white;
-    font-size:0.9em;
+    font-size:1em;
     margin-bottom:0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.news p
+.contenu
 {
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color:#CCCCCC;
     margin-top:0px;
 }
 
-a
+.date
 {
-    text-decoration: none;
-    color: blue;
+    margin-top: 0px;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:#CCCCCC;
+    margin-top:0px;
 }
+
 

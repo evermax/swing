@@ -18,8 +18,21 @@
         	        {
         	        ?>
         	        <div class="news">
-        	            <h1> <?php echo $donnees['titre']; ?> le <em> <?php echo $donnees['date_creation_fr']; ?></em> par <?php echo $donnees['auteur']; ?></h1>
-        	            <p> <?php echo $donnees['contenu']; ?> </p></br>
+        	            <p class="auteur" ><?php echo $donnees['auteur']; ?></p>
+        	            
+        	            <table class="billet" cellspacing="0" cellpadding="0" >
+        	                <tr>
+        	                    <th><h1> <?php echo $donnees['titre']; ?></h1></th>
+        	                </tr>
+        	                
+        	                <tr>
+        	                    <th class="contenu" > <?php echo $donnees['contenu']; ?> </th>
+        	                </tr>
+        	                
+        	                <tr>
+        	                    <th class="date" >le <em> <?php echo $donnees['date_creation_fr']; ?></em></th>
+        	                </tr>
+        	            </table>
         	
         	        </div>
         	    <?php
