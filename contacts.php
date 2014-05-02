@@ -6,7 +6,7 @@
         <div class="bloc_page">
             <?php
             include("header.php");
-            genererHeader("Nous contacter !", "menus.php");
+            genererHeader("Nous contacter", "menus.php");
             ?>
             
             <div class="corps">
