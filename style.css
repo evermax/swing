@@ -101,6 +101,11 @@ aside
 
 .control-button
 {
+    height: 50px;
+}
+
+.control-button img
+{
     max-width: 100%;
     max-height: 100%;
 }
