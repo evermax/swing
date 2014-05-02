@@ -122,11 +122,17 @@ figure
 }
 
 /* News */
+.news
+{
+    
+}
+
 .news table
 {
     width: 700px;
     margin: auto;
     border-collapse: collapse;
+    display: inline-block;
 }
 
 .news h1
@@ -140,6 +146,11 @@ figure
     border-top-right-radius: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.auteur
+{
+    display: inline-block;
 }
 
 .contenu
