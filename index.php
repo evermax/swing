@@ -24,12 +24,13 @@
                     </article>
 		
                     <aside>
-                        <h1>A propos des inventeurs</h1>
-		                
-                        <p>Une participation sur 3 générations</p>
-                        <p>Le grand-père : Paul Brouzes, calculs et brevet</br>
-                        Le père : Frédéric Brouzes, construction et tests prototypes</br>
-                        Les enfants : Chloé, Arthur et Félix Brouzes, aides</p>
+                        <h1>A propos des auteurs</h1>
+                        
+                        <h2>Une participation sur 3 générations</h2>
+                        
+                        <p><em>Le grand-père</em> : Paul Brouzes, calculs et brevet</br>
+                        <em>Le père</em> : Frédéric Brouzes, construction et tests prototypes</br>
+                        <em>Les enfants</em> : Chloé, Arthur et Félix Brouzes, aides</p>
                     </aside>
 		            
                 </section>
