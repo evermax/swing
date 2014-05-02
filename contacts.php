@@ -10,12 +10,12 @@
             ?>
             
             <div class="corps">
-                <p>Vous avez une question ? Ce projet vous intéresse ? N'hésitez pas à nous contacter !</p>
+                <p>Notre projet vous intéresse ? Vous souhaiteriez avoir des informations supplémentaires ou discuter avec l'un des inventeurs ? Vous avez une question à propos du S'Wing ? N'hésitez pas : contactez-nous par mail dès maintenant !</p>
                 
-                <h1>Contacter Fred</h1>
+                <h1 class="contact" >Contacter Fred</h1>
                 <p>Pour envoyer un mail à Fred, cliquez <a href="mailto:fred.brouzes@wanadoo.fr">ici</a>.</p>
                 
-                <h1>Contacter Paul</h1>
+                <h1 class="contact" >Contacter Paul</h1>
                 <p>Pour envoyer un mail à Paul, cliquez <a href="mailto:">là</a>.</p>
             </div>
             <?php include("footer.php"); ?>
