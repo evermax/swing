@@ -127,17 +127,10 @@ figure
 }
 
 /* News */
-.news
-{
-    
-}
-
-.news table
+.billet
 {
     width: 700px;
     margin: auto;
-    border-collapse: collapse;
-    display: inline-block;
 }
 
 .news h1
