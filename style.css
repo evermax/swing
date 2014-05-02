@@ -129,8 +129,14 @@ figure
 /* News */
 .billet
 {
-    width: 700px;
     margin: auto;
+    width: 700px;
+}
+
+.billet img
+{
+    max-width: 100%;
+    margin-left: -5px;
 }
 
 .news h1
@@ -148,7 +154,7 @@ figure
 
 .auteur
 {
-    display: inline-block;
+    width: 100px;
 }
 
 .contenu
