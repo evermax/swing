@@ -24,9 +24,7 @@
                     </article>
 		
                     <aside>
-                        <h1>A propos des auteurs</h1>
-                        
-                        <h2>Une participation sur 3 générations</h2>
+                        <h1>Une participation sur 3 générations</h1>
                         
                         <p><em>Le grand-père</em> : Paul Brouzes, calculs et brevet</br>
                         <em>Le père</em> : Frédéric Brouzes, construction et tests prototypes</br>
