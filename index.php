@@ -21,7 +21,6 @@
                     <article>
                         <h1>Résumé</h1>
                         <p>Ceci est la page d'accueil de notre site internet. Elle contiendra une petite description du Swing, le principe dans les grandes lignes, les différentes étapes réalisées, l'avancée actuelle des prototypes et les derniers résultats.</p>
-                        <p>Petit test de Git. Encore un. Blablabla. Smartgit</p>
                     </article>
 		
                     <aside>
