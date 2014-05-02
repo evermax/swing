@@ -16,7 +16,7 @@
             ?>
             
             <div class="corps">
-                <p>Cette page contient des photos et vidéos des essais des prototypes.</p>
+
                 <div class="gallery items-5">
                     <div id="item-1" class="control-operator"></div>
                     <div id="item-2" class="control-operator"></div>

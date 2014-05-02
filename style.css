@@ -1,8 +1,15 @@
+/* GENERAL */
+
 .bloc_page
 {
     width: 900px;
     margin: auto;
     text-align: justify;
+}
+
+.corps
+{
+    padding-top: 20px;
 }
 
 /*body
@@ -53,7 +60,7 @@ header
     color: red;
 }
 
-/* Corps */
+/* PAGE ACCUEIL */
 article, aside
 {
     display: inline-block;
@@ -84,6 +91,12 @@ aside h1
     font-size: 1em;
 }
 
+#banniere_image
+{
+    margin-top: 10px;
+}
+
+/* PAGE IMAGES */
 /* Carousel */
 .gallery
 {
@@ -126,7 +139,7 @@ figure
     margin: 0;
 }
 
-/* News */
+/* PAGE NEWS */
 .billet
 {
     margin: auto;
@@ -181,7 +194,7 @@ figure
     margin-top:0px;
 }
 
-/* Contacts */
+/* PAGE CONTACTS */
 .contact
 {
     font-size: 1.2em;
