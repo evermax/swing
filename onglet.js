@@ -3,9 +3,7 @@ var menu = {"index.php":"menu_index",
 "images.php":"menu_photo",
 "news.php":"menu_news",
 "contacts.php":"menu_contacts"};
-var pageurl = window.location.href;
-pageurl = (pageurl.substr(pageurl.lastIndexOf('/') + 1));
-pageurl = (pageurl.split('?')[0]);
+var pageurl = (location.pathname.substring(location.pathname.lastIndexOf("/") + 1));
 
 if(pageurl == ''){pageurl = "index.php"}
 
