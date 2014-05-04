@@ -11,6 +11,7 @@
             
             <div class="corps">
                 <h1>Etat de la technique actuelle et présentation de l'invention</h1>
+                
                 <p>Pour naviguer à la voile il faut maintenir l’incidence correcte de la voilure par rapport à la direction du vent. Les interventions sur les réglages de la voilure qui nécessitent des manœuvres délicates et des efforts de tension très importants sont limitées autant que possible. Tant que les fluctuations de direction du vent restent modérées on préfère dévier le bateau plutôt que de modifier les réglages de la voilure. En conséquence il faut intervenir fréquemment sur le cap, et la trajectoire vers la destination est rallongée.</p>
                 <p>La poussée du vent sur les voiles incline les bateaux et augmente la trainée. Sur les  monocoques  cette inclinaison est limitée par du lest généralement suspendu à la quille. Cela alourdit le bateau et  limite l'évolution en eaux peu profondes. Sur les multicoques on utilise de grands  flotteurs  latéraux qui n'éliminent pas  le risque de chavirage. Les planches à voile inclinées au vent et les kitesurf  tirés par cerf-volant bénéficient - au contraire - d’un allègement réduisant la trainée, mais leur pilotage acrobatique les réserve à des sportifs entrainés.</p>
                 <p>Sur les gréements les plus couramment utilisés  la voilure est tendue fortement  entre le haut du mât et la  bôme  afin de maintenir un profil aérodynamique performant, ce qui implique des efforts de compression  très importants sur le mât.</p>
@@ -22,6 +23,207 @@ On a adopté le concept pendulaire qui régit la stabilité aérodynamique des p
                 <p>L'ensemble  voilure - gréement étant indépendant du bateau, il peut être déposé pour  les manœuvres  sans vent ou largué  en cas de sinistre.</p>
                 <p>A l’arrêt et dans les vents faibles,  une structure reposant  à l’avant sur de petits  flotteurs pivotants peut supporter la voilure, mais lorsque le vent est suffisant  elle  peut être soulevée pour une navigation plus sportive.</p>
                 <p>Il faut noter que les dispositifs selon l'invention ne permettent pas de virer face au vent. Cet inconvénient, que l’on retrouve aussi sur les anciens voiliers, les kitesurf, les praos et  autres engins, est compensé  par la facilité avec laquelle les diverses manœuvres peuvent être réalisées.</p>
+                
+                <h1>S'Wing VS Voiliers classiques</h1>
+                
+                <table border="0" cellspacing="0" cellpadding="0" class="ta1">
+                    <colgroup>
+                        <col width="271"/>
+                        <col width="560"/>
+                        <col width="560"/>
+                        <col width="123"/>
+                    </colgroup>
+                    <tr class="ro1">
+                        <td style="text-align:left;width:6.211cm; " class="ce14"> </td>
+                        <td style="text-align:left;width:12.808cm; " class="ce18"><p>S'Wing</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce21"><p>Voiliers classiques</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce24"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Bateau </p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Peuvent convenir flotteurs, carènes, divers bateaux      </p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Voiliers (avec dispositifs anti gîte)</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Gréement</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Indépendant du bateau sur flotteurs annexes</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Mâture, espars, agrès, intégrés au bateau</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Voilure</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Pendulaire, auto orientable</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Type Marconi, foc, spi</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro3">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Inclinaison de la voile</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Selon angle désiré pour soulager le bateau</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Gîte du au vent (augmente la traînée et ralentit le bateau)</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Poussée au vent</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Vers le haut (pour soulager le bateau)</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Vers le bas (à cause de la gîte), augmente la traînée</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Point d'application</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Sur un pivot au niveau du pont</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Au centre de la voilure (environ 1/3 de la voile)</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                        
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Couple de renversement</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Réduit</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Fort (exige des dispositifs anti gîte)</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro3">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Dispositions anti gîte</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Peu concerné</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Lest, quille profonde, ballastage, grande largeur des multicoques</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Diverses manœuvres</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>3 réglages au poste de commande</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Procédures complexes qui mobilisent l'équipage</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                        
+                    <tr class="ro3">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Orientation des voiles</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Automatique, sans intervention</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Interventions sur la barre nécessaires pour s'adapter aux fluctuations du vent</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro3">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Trajectoire</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Directe au cap</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Rallongée par les déviations dues aux fluctuations du vent</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro3">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Réglages des voiles</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Seulement en cas de changement météorologique</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Nombreux et complexes aux manœuvres et fluctuations du vent</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Manœuvres</p></td><td style="text-align:left;width:12.808cm; " class="ce19"><p>Leviers de commande (sans effort)</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Réglages de câbles et cordages par palans ou winchs</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Changement de bord</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Stabilité peu affectée</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Déplacer l'équipage et charge lourde, lofer si nécessaire</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Virement vent de face</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Empannage dynamique (petite perte au vent)</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Virement bout au vent</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Virement vent arrière</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Empannage aisé, sans effort</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Empannage classique</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Spinnaker</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Inutile</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Gréer et régler</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Louvoyage</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Empannages dynamiques avec petite perte au vent</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Virements bout au vent</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro3">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Risques d'accrochage</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Limités car bateau sans appendice</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Quilles ou dérivées profondes sur hauts fonds, algues, baleines</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Risques de retournement</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Limités</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Critiques sur les multicoques</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>En cas de sinistre</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Voile-structure facilement larguées</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Cisailler les câbles, abattre le mât, remonter la dérive</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Sauvetage</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Le bateau peut constituer une cellule de survie</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Il faut une annexe de secours</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce15"><p>Stockage</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce19"><p>Voile-structure larguées sur bouée ou au sol</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce22"><p>Voile affalée mais gréement encombrant</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro4">
+                        <td style="text-align:left;width:6.211cm; " class="ce16"><p>Petits déplacements</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce20"><p>Au moteur (petit bateau sans gréement ni quille)</p></td>
+                        <td style="text-align:left;width:12.808cm; " class="ce23"><p>Voilier encombrant</p></td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce17"> </td>
+                        <td style="text-align:left;width:12.808cm; " class="ce17"> </td>
+                        <td style="text-align:left;width:12.808cm; " class="ce17"> </td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                    
+                    <tr class="ro2">
+                        <td style="text-align:left;width:6.211cm; " class="ce17"> </td>
+                        <td style="text-align:left;width:12.808cm; " class="ce17"> </td>
+                        <td style="text-align:left;width:12.808cm; " class="ce17"> </td>
+                        <td style="text-align:left;width:2.822cm; " class="ce17"> </td>
+                    </tr>
+                </table>
+                <!--
+                <table border="0" cellspacing="0" cellpadding="0" class="ta2">
+                    <colgroup><col width="114"/></colgroup><tr class="ro2"><td style="text-align:left;width:2.612cm; " class="Default"> </td></tr><tr class="ro2"><td style="text-align:left;width:2.612cm; " class="Default"> </td></tr></table><table border="0" cellspacing="0" cellpadding="0" class="ta3"><colgroup><col width="114"/></colgroup><tr class="ro2"><td style="text-align:left;width:2.612cm; " class="Default"> </td></tr><tr class="ro2"><td style="text-align:left;width:2.612cm; " class="Default"> </td></tr></table> -->
             </div>
             <?php include("footer.php"); ?>
         </div>
