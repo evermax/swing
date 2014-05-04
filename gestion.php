@@ -10,13 +10,13 @@
     	{
     		$pseudo = $_SESSION['pseudo'];
     		?>
-    		<div class="">
+    		<div class="bloc_page">
     		    <?php
                     include("header.php");
                     genererHeader("Gérer mes billets", "menu_admin.php");
                 ?>
 		    
-    		    <div class="">
+    		    <div class="corps">
         		    <?php
         	        $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         	        $requete = $bdd->prepare('SELECT id, titre, contenu, DATE_FORMAT(date_creation, \'%d/%m/%Y à %Hh%i\') AS date_creation_fr FROM billets WHERE auteur = :auteur ORDER BY date_creation DESC LIMIT 0, 5');
@@ -26,9 +26,10 @@
         	        {
         	        ?>
         	        <div class="news">
-        	            <h3> <?php echo $donnees['titre']; ?> le <em> <?php echo $donnees['date_creation_fr']; ?> </em></h3>
-        	            <p> <?php echo $donnees['contenu']; ?> </p>
-        	            <p><a href="supprimer_billet.php?billet=<?php echo $donnees['id'] ?>">Supprimer</a></p>
+        	            <h1> <?php echo $donnees['titre']; ?> </h1>
+        	            <p class="contenu"> <?php echo $donnees['contenu']; ?> </p>
+        	            <p class="date">le <em> <?php echo $donnees['date_creation_fr']; ?> </em></p>
+        	            <p><a href="supprimer_billet.php?billet=<?php echo $donnees['id'] ?>">Supprimer</a></p><br />
         	
         	        </div>
         			<?php

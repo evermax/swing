@@ -87,9 +87,10 @@ aside
     font-size: 0.9em;
 }
 
-aside h1
+section aside h1
 {
-    font-size: 1em;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 #banniere_image
@@ -103,6 +104,13 @@ aside h1
 {
     width: 800px;
     height: 500px;
+    margin: auto;
+}
+
+.autoplay
+{
+    width: 400px;
+    height: 250px;
     margin: auto;
 }
 
@@ -221,3 +229,4 @@ footer
     text-align: center;
 }
 
+/* ADMIN */

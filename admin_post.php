@@ -13,7 +13,7 @@ if ($_POST['pseudo'] !== null && strip_tags($_POST['mdp']) !== null)
 	
 	if (!$donnees)
 	{
-	    header('Location: admin.php');
+	    header('Location: admin.php?identification=faux');
 	}
 	else
 	{

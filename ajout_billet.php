@@ -10,17 +10,29 @@
     	{
     		$pseudo = $_SESSION['pseudo'];
     		?>
-    		<div class="">
+    		<div class="bloc_page">
     		    <?php
                     include("header.php");
                     genererHeader("Ajouter un billet", "menu_admin.php");
                 ?>
     		    
-    		    <div>
+    		    <div class="corps">
         		    <form action="billet_post.php" method="post">
-        		    	<label for="titre">Titre : <input name="titre" id="titre" /></label><br />
-        		    	<label for="contenu">Contenu : <textarea rows="3" cols="50" name="contenu" ></textarea></label><br />
-        		    	<input type="submit" />
+        		        <table>
+        		            <tr>
+        		                <td><label for="titre">Titre : </label></td>
+        		                <td><input name="titre" id="titre" /></td>
+        		            </tr>
+        		            
+        		            <tr>
+            		    	    <td><label for="contenu">Contenu : </label></td>
+            		    	    <td><textarea rows="3" cols="100" name="contenu" ></textarea></td>
+        		            </tr>
+        		            
+            		    	<tr>
+            		    	    <td colspan="2" ><input type="submit" value="Envoyer" /></td>
+                            </tr>
+        		        </table>
         		    </form>
     		    </div>
     		    <?php include("footer.php"); ?>
