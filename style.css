@@ -13,11 +13,21 @@
     padding-bottom: 20px;
 }
 
+/* Header */
+header
+{
+    background: url('images/separateur.png') repeat-x bottom;
+}
+
+#titre_principal
+{
+    display: inline-block;
+}
+
 /* Navigation */
 nav
 {
     display: inline-block;
-    width: 900px;
     text-align: right;
 }
 
@@ -42,12 +52,6 @@ nav a:hover
 {
     color: #000060;
     border-bottom: 3px solid #000060;
-}
-
-/* Header */
-header
-{
-    background: url('images/separateur.png') repeat-x bottom;
 }
 
 
