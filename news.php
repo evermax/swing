@@ -22,13 +22,10 @@
 	                    $nb_pages = $nb_pages + 1;
                     }
                     
+                    $page = 1;
                     if(isset($_GET['page']))
                     {
                         $page = $_GET['page'];
-                    }
-                    else
-                    {
-                        $page = 1;
                     }
                     
 		            $billet_inf = ($page - 1) * 5;
@@ -67,7 +64,14 @@
                 <?php
                 for ($i = 1; $i < $nb_pages; $i++)
                 {
-                    echo '<a href="news.php?page=' . $i . '">' . $i . '</a> ';
+                    if ($i == $page)
+                    {
+                        echo '<a href="news.php?page=' . $i . '" class="page_actuelle" >' . $i . '</a> ';
+                    }
+                    else
+                    {
+                        echo '<a href="news.php?page=' . $i . '" class="page_non_courante" >' . $i . '</a> ';
+                    }
                 }
         		?>
         		</p>

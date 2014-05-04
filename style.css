@@ -253,6 +253,18 @@ figure
     text-align: center;
 }
 
+.page_actuelle
+{
+    color: #0000FF;
+    text-decoration: none;
+}
+
+.page_non_courante
+{
+    color: #000000;
+    text-decoration: none;
+}
+
 /* PAGE CONTACTS */
 .contact
 {
