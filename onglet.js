@@ -6,4 +6,8 @@ var menu = {"index.php":"menu_index",
 var pageurl = window.location.href;
 pageurl = (pageurl.substr(pageurl.lastIndexOf('/') + 1));
 
-alert(menu[pageurl]);
+
+document.getElementById(menu[pageurl]).style.color="#000060";
+document.getElementById(menu[pageurl]).style.borderBottomWidth="3px";
+document.getElementById(menu[pageurl]).style.borderBottomStyle="solid";
+document.getElementById(menu[pageurl]).style.borderBottomColor="#000060";
