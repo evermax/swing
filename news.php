@@ -11,10 +11,35 @@
     	    
     	    <div class="corps">
         	    <?php
-        	        $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-        	        $reponse = $bdd->query('SELECT id, auteur, titre, contenu, DATE_FORMAT(date_creation, \'%d/%m/%Y à %Hh%i\') AS date_creation_fr FROM billets ORDER BY date_creation DESC LIMIT 0, 5');
-        	
-        	        while ($donnees = $reponse->fetch())
+        	        $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        	    
+        	        $nb_billets = $bdd->query('SELECT COUNT(*) AS nb_billets FROM billets');
+
+                    $nb_pages = $nb_billets->fetch();
+                    $nb_pages = $nb_pages['nb_billets'] / 5;
+                    if($nb_pages % 5 != 0)
+                    {
+	                    $nb_pages = $nb_pages + 1;
+                    }
+                    
+                    if(isset($_GET['page']))
+                    {
+                        $page = $_GET['page'];
+                    }
+                    else
+                    {
+                        $page = 1;
+                    }
+                    
+		            $billet_inf = ($page - 1) * 5;
+		            $billet_sup = $page * 5;
+                    
+        	        $requete = $bdd->prepare('SELECT id, auteur, titre, contenu, DATE_FORMAT(date_creation, \'%d/%m/%Y à %Hh%i\') AS date_creation_fr FROM billets ORDER BY date_creation DESC LIMIT :billet_inf, :billet_sup');
+                    $requete->bindParam(':billet_inf', $billet_inf, PDO::PARAM_INT);
+                    $requete->bindParam(':billet_sup', $billet_sup, PDO::PARAM_INT);
+                    $requete->execute();
+        	        
+        	        while ($donnees = $requete->fetch())
         	        {
         	        ?>
         	        <div class="news">
@@ -36,6 +61,13 @@
         	        </div>
         	    <?php
         	        }
+        	    
+        	    echo 'Page : ';
+
+                for ($i = 1; $i < $nb_pages; $i++)
+                {
+                    echo '<a href="news.php?page=' . $i . '">' . $i . '</a> ';
+                }
         		?>
             </div>
             <?php include("footer.php"); ?>
