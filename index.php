@@ -12,39 +12,21 @@
             <div class="corps">
                 <div id="banniere_image">
                     <div id="banniere_description">
-                        <div class="gallery autoplay items-5">
+                        <div class="gallery autoplay items-2">
                             <div id="item-1" class="control-operator"></div>
                             <div id="item-2" class="control-operator"></div>
-                            <div id="item-3" class="control-operator"></div>
-                            <div id="item-4" class="control-operator"></div>
-                            <div id="item-5" class="control-operator"></div>
                             
                             <figure class="item">
-                                <img src="images/img1.jpg" alt="Voilure" />
+                                <img src="images/accueil1.jpg" alt="Voilure" />
                             </figure>
                             
                             <figure class="item">
-                                <img src="images/img2.jpg" alt="Voilure" />
-                            </figure>
-                            
-                            <figure class="item">
-                                <img src="images/img3.jpg" alt="Voilure" />
-                            </figure>
-                            
-                            <figure class="item">
-                                <img src="images/img4.jpg" alt="Voilure" />
-                            </figure>
-                            
-                            <figure class="item">
-                                <img src="images/img5.jpg" alt="Voilure" />
+                                <img src="images/accueil2.jpg" alt="Voilure" />
                             </figure>
                             
                             <div class="controls">
                                 <a href="#item-1" class="control-button"></a>
                                 <a href="#item-2" class="control-button"></a>
-                                <a href="#item-3" class="control-button"></a>
-                                <a href="#item-4" class="control-button"></a>
-                                <a href="#item-5" class="control-button"></a>
                             </div>
                         </div>
                     </div>
