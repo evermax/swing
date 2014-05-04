@@ -60,14 +60,17 @@ header
 
 footer
 {
-    background:  url('images/separateur.png') repeat-x top;
-    padding-top: 15px;
+    background:  url('images/separateur.png') repeat-x top, url("images/ico_top.png") no-repeat top;
     text-align: center;
 }
 
-footer img
+.backup
 {
-
+    margin-top: 0px;
+    width: 54px;
+    height: 30px;
+    margin: auto;
+    z-index: -1;
 }
 
 /* PAGE ACCUEIL */
