@@ -13,11 +13,6 @@
     padding-bottom: 20px;
 }
 
-/*body
-{
-    background: url("images/fond_bleu.jpeg");
-}*/
-
 /* Navigation */
 nav
 {
@@ -59,6 +54,20 @@ header
 .erreur
 {
     color: red;
+}
+
+/* Footer */
+
+footer
+{
+    background:  url('images/separateur.png') repeat-x top;
+    padding-top: 15px;
+    text-align: center;
+}
+
+footer img
+{
+
 }
 
 /* PAGE ACCUEIL */
@@ -240,16 +249,6 @@ figure
 .contact
 {
     font-size: 1.2em;
-}
-
-
-/* Footer */
-
-footer
-{
-    background:  url('images/separateur.png') repeat-x top;
-    padding-top: 15px;
-    text-align: center;
 }
 
 /* ADMIN */
