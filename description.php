@@ -27,12 +27,6 @@ On a adopté le concept pendulaire qui régit la stabilité aérodynamique des p
                 <h1>S'Wing VS Voiliers classiques</h1>
                 
                 <table border="1" cellspacing="0" cellpadding="0" class="tableau">
-                    <colgroup>
-                        <col width="271"/>
-                        <col width="560"/>
-                        <col width="560"/>
-                        <col width="123"/>
-                    </colgroup>
                     <tr class="ro1">
                         <td class="ce14"> </td>
                         <td class="ce18"><p>S'Wing</p></td>
