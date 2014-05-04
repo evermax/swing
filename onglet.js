@@ -5,6 +5,7 @@ var menu = {"index.php":"menu_index",
 "contacts.php":"menu_contacts"};
 var pageurl = window.location.href;
 pageurl = (pageurl.substr(pageurl.lastIndexOf('/') + 1));
+pageurl = (pageurl.split('?')[0]);
 
 
 document.getElementById(menu[pageurl]).style.color="#c00000";
