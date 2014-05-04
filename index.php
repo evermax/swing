@@ -53,7 +53,8 @@
                 <section>
                     <article>
                         <h1>Résumé</h1>
-                        <p>Ceci est la page d'accueil de notre site internet. Elle contiendra une petite description du Swing, le principe dans les grandes lignes, les différentes étapes réalisées, l'avancée actuelle des prototypes et les derniers résultats.</p>
+                        <p>Bienvenu sur le site internet du S'Wing !</p>
+                        <p>Petite description.<br/>Principe dans les grandes lignes.<br/>Différentes étapes réalisées.<br/>Avancée actuelle des prototypes.<br/>Derniers résultats.</p>
                     </article>
 		
                     <aside>
