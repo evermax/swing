@@ -98,6 +98,23 @@ section aside h1
     margin-top: 10px;
 }
 
+/* PAGE DESCRIPTION */
+.tableau .ro2
+{
+    text-align: center;
+}
+
+.tableau .ro1
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+.tableau .ce15
+{
+    font-style: italic;
+}
+
 /* PAGE IMAGES */
 /* Carousel */
 .gallery
