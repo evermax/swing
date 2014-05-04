@@ -61,14 +61,16 @@
         	        </div>
         	    <?php
         	        }
+        	    ?>
         	    
-        	    echo 'Page : ';
-
+        	    <p class="pagination" >Page : 
+                <?php
                 for ($i = 1; $i < $nb_pages; $i++)
                 {
                     echo '<a href="news.php?page=' . $i . '">' . $i . '</a> ';
                 }
         		?>
+        		</p>
             </div>
             <?php include("footer.php"); ?>
 		</div>

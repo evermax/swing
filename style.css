@@ -248,6 +248,11 @@ figure
     max-height: 100%;
 }
 
+.pagination
+{
+    text-align: center;
+}
+
 /* PAGE CONTACTS */
 .contact
 {
