@@ -7,7 +7,7 @@ var pageurl = window.location.href;
 pageurl = (pageurl.substr(pageurl.lastIndexOf('/') + 1));
 pageurl = (pageurl.split('?')[0]);
 
-if(pageurl == ''):{pageurl = "index.php"}
+if(pageurl == ''){pageurl = "index.php"}
 
 document.getElementById(menu[pageurl]).style.color="#c00000";
 document.getElementById(menu[pageurl]).style.borderBottomWidth="3px";
