@@ -11,23 +11,21 @@
             
             <div class="corps">
                 <div id="banniere_image">
-                    <div id="banniere_description">
-                        <div class="gallery autoplay items-2">
-                            <div id="item-1" class="control-operator"></div>
-                            <div id="item-2" class="control-operator"></div>
-                            
-                            <figure class="item">
-                                <img src="images/accueil1.jpg" alt="Voilure" />
-                            </figure>
-                            
-                            <figure class="item">
-                                <img src="images/accueil2.jpg" alt="Voilure" />
-                            </figure>
-                            
-                            <div class="controls">
-                                <a href="#item-1" class="control-button"></a>
-                                <a href="#item-2" class="control-button"></a>
-                            </div>
+                    <div class="gallery autoplay items-2">
+                        <div id="item-1" class="control-operator"></div>
+                        <div id="item-2" class="control-operator"></div>
+                        
+                        <figure class="item">
+                            <img src="images/accueil1.jpg" alt="Voilure" class="panoramique" />
+                        </figure>
+                        
+                        <figure class="item">
+                            <img src="images/accueil2.jpg" alt="Voilure" class="panoramique" />
+                        </figure>
+                        
+                        <div class="controls">
+                            <a href="#item-1" class="control-button"></a>
+                            <a href="#item-2" class="control-button"></a>
                         </div>
                     </div>
                 </div>

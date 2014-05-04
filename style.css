@@ -113,6 +113,11 @@ section aside h1
     margin-top: 10px;
 }
 
+.panoramique
+{
+    border-radius: 10px;
+}
+
 /* PAGE DESCRIPTION */
 .tableau
 {
@@ -147,7 +152,7 @@ section aside h1
 .autoplay
 {
     width: 900px;
-    height: 360px;
+    height: 300px;
     margin: auto;
 }
 
