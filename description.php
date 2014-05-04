@@ -5,8 +5,7 @@
     <body>
         <div class="bloc_page">
             <?php
-            include("header.php");
-            genererHeader("Description du principe", "menus.php");
+            include("menus.php");
             ?>
             
             <div class="corps">

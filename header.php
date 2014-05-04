@@ -1,5 +1,5 @@
 <?php
-    function genererHeader($titre, $menu)
+    function genererHeader($menu)
     {
         ?>
         <header>
