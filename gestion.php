@@ -12,8 +12,7 @@
     		?>
     		<div class="bloc_page">
     		    <?php
-                    include("header.php");
-                    genererHeader("Gérer mes billets", "menu_admin.php");
+                    include("menu_admin.php");
                 ?>
 		    
     		    <div class="corps">
