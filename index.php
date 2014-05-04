@@ -15,15 +15,15 @@
                         <div id="item-2" class="control-operator"></div>
                         <div id="item-3" class="control-operator"></div>
                         
-                        <figure class="item">
+                        <figure class="item ombre">
                             <img src="images/accueil1.jpg" alt="Voilure" class="panoramique" />
                         </figure>
                         
-                        <figure class="item">
+                        <figure class="item ombre">
                             <img src="images/accueil2.jpg" alt="Voilure" class="panoramique" />
                         </figure>
                         
-                        <figure class="item">
+                        <figure class="item ombre">
                             <img src="images/accueil3.jpg" alt="Voilure" class="panoramique" />
                         </figure>
                         
