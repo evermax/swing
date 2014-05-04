@@ -42,11 +42,28 @@
         	        <div class="news">
             	            <table class="billet" cellspacing="0" cellpadding="0" >
             	                <tr>
-            	                    <th class="auteur"><?php echo $donnees['auteur']; ?></th><th><h1> <?php echo $donnees['titre']; ?></h1></th>
+            	                    <th class="auteur"><?php echo $donnees['auteur']; ?></th>
+            	                    <th><h1> <?php echo $donnees['titre']; ?></h1></th>
             	                </tr>
             	                
             	                <tr>
-            	                    <th rowspan="2" class="photo"><img src="images/singe.jpg" alt="<?php echo $donnees['auteur']; ?>"/></th><th class="contenu" > <?php echo $donnees['contenu']; ?> </th>
+            	                    <th rowspan="2" class="photo">
+            	                    <?php
+            	                    if ($donnees['auteur'] == "Chloe")
+            	                    {
+            	                    ?>
+            	                        <img src="images/lion.jpg" alt="<?php echo $donnees['auteur']; ?>" />
+            	                    <?php
+            	                    }
+            	                    else if ($donnees['auteur'] == "Maxime")
+            	                    {
+            	                    ?>
+            	                        <img src="images/singe.jpg" alt="<?php echo $donnees['auteur']; ?>" />
+            	                    <?php
+            	                    }
+            	                    ?>
+            	                    </th>
+            	                    <th class="contenu" > <?php echo $donnees['contenu']; ?> </th>
             	                </tr>
             	                
             	                <tr>
