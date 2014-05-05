@@ -1,10 +1,16 @@
-/* GENERAL */
+/********************* GENERAL *********************/
+
+body
+{   
+    background-color: rgb(238, 238, 238);
+}
 
 .bloc_page
 {
     width: 900px;
     margin: auto;
     text-align: justify;
+    background-image: -webkit-linear-gradient(left, rgba(238, 238, 238, 1) 0%, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 1) 95%, rgba(238, 238, 238, 1) 100%);
 }
 
 .corps
@@ -13,10 +19,11 @@
     padding-bottom: 20px;
 }
 
-/* Header */
+/********************* Header *********************/
 header
 {
     background: url('images/separateur.png') repeat-x bottom;
+    background-color: rgb(238, 238, 238);
 }
 
 #titre_principal
@@ -24,7 +31,7 @@ header
     display: inline-block;
 }
 
-/* Navigation */
+/********************* Navigation *********************/
 nav
 {
     display: inline-block;
@@ -60,12 +67,13 @@ nav a:hover
     color: red;
 }
 
-/* Footer */
+/*********************** Footer **********************/
 
 footer
 {
     background:  url('images/separateur.png') repeat-x top, url("images/ico_top.png") no-repeat top;
     text-align: center;
+    background-color: rgb(238, 238, 238);
 }
 
 .backup
@@ -76,7 +84,7 @@ footer
     margin: auto;
 }
 
-/* PAGE ACCUEIL */
+/********************* PAGE ACCUEIL *********************/
 article, aside
 {
     display: inline-block;
@@ -87,7 +95,7 @@ article, aside
 article
 {
     width: 650px;
-    margin-right: 25px;
+    margin-right: 5px;
 }
 
 aside
@@ -108,6 +116,14 @@ section aside h1
     text-align: center;
 }
 
+section
+{
+    background-color: rgba(66, 173, 204 , 0.3);
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px #1c1a19;
+    padding: 10px;
+}
+
 #banniere_image
 {
     margin-top: 10px;
@@ -118,7 +134,7 @@ section aside h1
     border-radius: 10px;
 }
 
-/* PAGE DESCRIPTION */
+/********************** PAGE DESCRIPTION **********************/
 .tableau
 {
     
@@ -140,8 +156,8 @@ section aside h1
     font-style: italic;
 }
 
-/* PAGE IMAGES */
-/* Carousel */
+/********************** PAGE IMAGES **********************/
+/********************** Carousel **********************/
 .gallery
 {
     width: 800px;
@@ -190,7 +206,7 @@ figure
     margin: 0;
 }
 
-/* PAGE NEWS */
+/********************** PAGE NEWS **********************/
 .billet
 {
     margin: auto;
@@ -273,10 +289,10 @@ figure
     text-decoration: none;
 }
 
-/* PAGE CONTACTS */
+/********************** PAGE CONTACTS **********************/
 .contact
 {
     font-size: 1.2em;
 }
 
-/* ADMIN */
+/********************** ADMIN **********************/

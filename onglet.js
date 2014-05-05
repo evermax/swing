@@ -7,7 +7,7 @@ var pageurl = (location.pathname.substring(location.pathname.lastIndexOf("/") + 
 
 if(pageurl == ''){pageurl = "index.php"}
 
-document.getElementById(menu[pageurl]).style.color="#c00000";
+document.getElementById(menu[pageurl]).style.color="#00C3CC";
 document.getElementById(menu[pageurl]).style.borderBottomWidth="3px";
 document.getElementById(menu[pageurl]).style.borderBottomStyle="solid";
-document.getElementById(menu[pageurl]).style.borderBottomColor="#c00000";
+document.getElementById(menu[pageurl]).style.borderBottomColor="#00C3CC";
