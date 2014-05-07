@@ -46,9 +46,9 @@
                     <aside>
                         <h1>Une participation sur 3 générations</h1>
                         
-                        <p><em>Le grand-père</em> : Paul Brouzes, calculs et brevet</br>
-                        <em>Le père</em> : Frédéric Brouzes, construction et tests prototypes</br>
-                        <em>Les enfants</em> : Chloé, Arthur et Félix Brouzes, aides</p>
+                        <p><em>Le grand-père</em> : Paul, calculs et brevet</br>
+                        <em>Le père et la mère</em> : Frédéric, construction et tests prototypes, et Gisèle, aides</br>
+                        <em>Les enfants</em> : Chloé, Arthur et Félix, aides</p>
                     </aside>
 		            
                 </section>

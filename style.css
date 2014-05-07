@@ -21,6 +21,11 @@ body
     padding-bottom: 20px;
 }
 
+.corps h1
+{
+    color: #0F2240;
+}
+
 /********************* Header *********************/
 header
 {
