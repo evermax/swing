@@ -45,19 +45,20 @@ nav
     text-align: right;
 }
 
-nav ul
-{
-    list-style-type: none;
-}
-
 nav li
 {
     display: inline-block;
     margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    float : left;
+    height: 22px;
 }
 
 nav a
 {
+    display : block;
     text-decoration: none;
     color: #000000;
 }
@@ -72,6 +73,23 @@ nav a:hover
 .erreur
 {
     color: red;
+}
+
+#onglets
+{
+    position : absolute;
+    list-style-type : none;
+    margin-top : 0;
+    width : 750px;
+}
+
+#onglets li.active
+{
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
 }
 
 /*********************** Footer **********************/

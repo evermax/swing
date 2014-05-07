@@ -2,13 +2,15 @@
     <h1 id="titre_principal">S'Wing</h1>
     
     <nav>
-        <ul>
-            <li class="menu_index"><a href="index.php" id="menu_index">Accueil</a></li>
-            <li class="menu_description"><a href="description.php" id="menu_description">Description</a></li>
-            <li class="menu_photo"><a href="images.php" id="menu_photo">Photos et vidéos</a></li>
-            <li class="menu_news"><a href="news.php" id="menu_news">Dernières nouvelles</a></li>
-            <li class="menu_contacts"><a href="contacts.php" id="menu_contacts">Contacts</a></li>
-        </ul>
+        <div id="menu">
+            <ul id="onglets">
+                <li id="menu_index"><a href="index.php">Accueil</a></li>
+                <li id="menu_description"><a href="description.php">Description</a></li>
+                <li id="menu_photo"><a href="images.php">Photos et vidéos</a></li>
+                <li id="menu_news"><a href="news.php">Dernières nouvelles</a></li>
+                <li id="menu_contacts"><a href="contacts.php">Contacts</a></li>
+            </ul>
+        </div>
     </nav>
 </header>
 <script src="onglet.js"></script>
