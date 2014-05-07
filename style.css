@@ -63,12 +63,13 @@ nav a
     color: #000000;
 }
 
+/*
 nav a:hover
 {
     color: #000060;
     border-bottom: 3px solid #000060;
 }
-
+*/
 
 .erreur
 {
@@ -85,11 +86,11 @@ nav a:hover
 
 #onglets li.active
 {
-    border-bottom: 1px solid #fff;
     background-color: #fff;
-    border-top: 1px solid #000000;
-    border-right: 1px solid #000000;
-    border-left: 1px solid #000000;
+    border-top: 2px solid rgb(170, 142, 147);
+    border-right: 2px solid rgb(170, 142, 147);
+    border-left: 2px solid rgb(170, 142, 147);
+    border-radius: 5px 5px 0px 0px;
 }
 
 /*********************** Footer **********************/
