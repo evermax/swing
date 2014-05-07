@@ -3,11 +3,11 @@
     
     <nav>
         <ul>
-            <div class="menu menu_index"><a href="index.php" id="menu_index">Accueil</a></div>
-            <div class="menu menu_description"><a href="description.php" id="menu_description">Description</a></div>
-            <div class="menu menu_photo"><a href="images.php" id="menu_photo">Photos et vidéos</a></div>
-            <div class="menu menu_news"><a href="news.php" id="menu_news">Dernières nouvelles</a></div>
-            <div class="menu menu_contacts"><a href="contacts.php" id="menu_contacts">Contacts</a></div>
+            <li class="menu_index"><a href="index.php" id="menu_index">Accueil</a></li>
+            <li class="menu_description"><a href="description.php" id="menu_description">Description</a></li>
+            <li class="menu_photo"><a href="images.php" id="menu_photo">Photos et vidéos</a></li>
+            <li class="menu_news"><a href="news.php" id="menu_news">Dernières nouvelles</a></li>
+            <li class="menu_contacts"><a href="contacts.php" id="menu_contacts">Contacts</a></li>
         </ul>
     </nav>
 </header>
