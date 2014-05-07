@@ -23,7 +23,7 @@ On a adopté le concept pendulaire qui régit la stabilité aérodynamique des p
                 <p>A l’arrêt et dans les vents faibles,  une structure reposant  à l’avant sur de petits  flotteurs pivotants peut supporter la voilure, mais lorsque le vent est suffisant  elle  peut être soulevée pour une navigation plus sportive.</p>
                 <p>Il faut noter que les dispositifs selon l'invention ne permettent pas de virer face au vent. Cet inconvénient, que l’on retrouve aussi sur les anciens voiliers, les kitesurf, les praos et  autres engins, est compensé  par la facilité avec laquelle les diverses manœuvres peuvent être réalisées.</p>
                 
-                <h1>S'Wing VS Voiliers classiques</h1>
+                <h1>Les avantages de S'Wing</h1>
                 
                 <table border="1" cellspacing="0" cellpadding="0" class="tableau">
                     <tr class="ro1">
