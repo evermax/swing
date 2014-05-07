@@ -44,8 +44,6 @@
                         <a href="#item-4" class="control-button"><img src="images/img4.jpg" alt="Voilure" /></a>
                         <a href="#item-5" class="control-button"><img src="images/img5.jpg" alt="Voilure" /></a>
                     </div>
-                    
-                    <p>Ici, il y aura un petit texte qui changera avec l'image ou la vidéo courante. Pour cela, nous devons changer le carousel afin de pouvoir mettre un nombre illimité d'éléments (du moins plus que 5) et de permettre aux gestionnaires d'ajouter eux-mêmes les images et les textes.</p>
                 </div>
             </div>
             <?php include("footer.php"); ?>
