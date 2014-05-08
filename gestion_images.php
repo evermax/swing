@@ -10,32 +10,29 @@
     	{
     		$pseudo = $_SESSION['pseudo'];
     		?>
-    		<div class="bloc_page">
-    		    <?php
-                    include("menu_admin.php");
-                ?>
-    		    
-    		    <div class="corps">
-        		    <form action="ajout_image_post.php" method="post">
-        		        <table>
-        		            <tr>
-        		                <td><label for="titre">Titre : </label></td>
-        		                <td><input name="titre" id="titre" /></td>
-        		            </tr>
-        		            
-        		            <tr>
-        		                <td><label for="titre">Titre : </label></td>
-        		                <td><input name="titre" id="titre" /></td>
-        		            </tr>
-        		            
-            		    	<tr>
-            		    	    <td colspan="2" ><input type="submit" value="Envoyer" /></td>
-                            </tr>
-        		        </table>
-        		    </form>
-    		    </div>
-    		    <?php include("footer.php"); ?>
-    		</div> 
+    		<form id="uploadForm" enctype="multipart/form-data" action="upload.php" target="uploadFrame" method="post">
+                <label for="uploadFile">Image :</label>
+                <input id="uploadFile" name="uploadFile" type="file" />
+                <br /><br />
+                <input id="uploadSubmit" type="submit" value="Upload !" />
+            </form>
+            <div id="uploadInfos">
+                <div id="uploadStatus">Aucun upload en cours</div>
+                <iframe id="uploadFrame" name="uploadFrame"></iframe>
+            </div>
+            <script>
+            function uploadEnd(error, path) {
+                if (error === 'OK') {
+                    document.getElementById('uploadStatus').innerHTML = '<a href="' + path + '">Upload done !</a><br /><br /><a href="' + path + '"><img src="' + path + '" /></a>';
+                } else {
+                    document.getElementById('uploadStatus').innerHTML = error;
+                }
+            }
+            
+            document.getElementById('uploadForm').addEventListener('submit', function() {
+                document.getElementById('uploadStatus').innerHTML = 'Loading...';
+            }, true);
+            </script>
 			<?php
     	}
     	else
