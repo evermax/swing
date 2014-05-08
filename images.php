@@ -10,41 +10,22 @@
             
             <div class="corps">
 
-                <div class="gallery items-5">
-                    <div id="item-1" class="control-operator"></div>
-                    <div id="item-2" class="control-operator"></div>
-                    <div id="item-3" class="control-operator"></div>
-                    <div id="item-4" class="control-operator"></div>
-                    <div id="item-5" class="control-operator"></div>
-                    
-                    <figure class="item">
-                        <img src="images/img1.jpg" alt="Voilure" />
-                    </figure>
-                    
-                    <figure class="item">
-                        <img src="images/img2.jpg" alt="Voilure" />
-                    </figure>
-                    
-                    <figure class="item">
-                        <img src="images/img3.jpg" alt="Voilure" />
-                    </figure>
-                    
-                    <figure class="item">
-                        <img src="images/img4.jpg" alt="Voilure" />
-                    </figure>
-                    
-                    <figure class="item">
-                        <img src="images/img5.jpg" alt="Voilure" />
-                    </figure>
-                    
-                    <div class="controls">
-                        <a href="#item-1" class="control-button"><img src="images/img1.jpg" alt="Voilure" /></a>
-                        <a href="#item-2" class="control-button"><img src="images/img2.jpg" alt="Voilure" /></a>
-                        <a href="#item-3" class="control-button"><img src="images/img3.jpg" alt="Voilure" /></a>
-                        <a href="#item-4" class="control-button"><img src="images/img4.jpg" alt="Voilure" /></a>
-                        <a href="#item-5" class="control-button"><img src="images/img5.jpg" alt="Voilure" /></a>
-                    </div>
-                </div>
+	            <div id="carousel">
+		            <a class="buttons prev" href="#">&#60;</a>
+		            <div class="viewport">
+			            <ul class="overview">
+				            <li><img src="images/img1.jpg" /></li>
+				            <li><img src="images/img2.jpg" /></li>
+				            <li><img src="images/img3.jpg" /></li>
+				            <li><img src="images/img4.jpg" /></li>
+				            <li><img src="images/img5.jpg" /></li>
+				            <li><img src="images/img6.jpg" /></li>
+				            <li><video src="swing_a_bord.avi" controls width="700px"⁪></video⁪⁪></li>
+			            </ul>
+		            </div>
+		            <a class="buttons next" href="#">&#62;</a>
+	            </div>
+
             </div>
             <?php include("footer.php"); ?>
         </div>
