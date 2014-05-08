@@ -76,7 +76,5 @@
 	<link rel="stylesheet" type="text/css" href="css/sliderkit-core.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="css/sliderkit-demos.css" media="screen, projection" />
 	
-	<link rel="stylesheet" type="text/css" href="css/sliderkit-site.css" media="screen, projection" />
-	
     <title>S'Wing</title>
 </head>
