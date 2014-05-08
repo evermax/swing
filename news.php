@@ -46,21 +46,23 @@
             	                </tr>
             	                
             	                <tr>
-            	                    <th rowspan="2" class="photo">
-            	                    <?php
-            	                    if ($donnees['auteur'] == "Chloe")
-            	                    {
-            	                    ?>
-            	                        <img src="images/lion.jpg" alt="<?php echo $donnees['auteur']; ?>" />
-            	                    <?php
-            	                    }
-            	                    else if ($donnees['auteur'] == "Maxime")
-            	                    {
-            	                    ?>
-            	                        <img src="images/singe.jpg" alt="<?php echo $donnees['auteur']; ?>" />
-            	                    <?php
-            	                    }
-            	                    ?>
+            	                    <th rowspan="2">
+            	                        <div class="photo">
+                    	                    <?php
+                    	                    if ($donnees['auteur'] == "Chloe")
+                    	                    {
+                    	                    ?>
+                    	                            <img src="images/lion.jpg" alt="<?php echo $donnees['auteur']; ?>" />
+                    	                    <?php
+                    	                    }
+                    	                    else if ($donnees['auteur'] == "Maxime")
+                    	                    {
+                    	                    ?>
+                    	                        <img src="images/singe.jpg" alt="<?php echo $donnees['auteur']; ?>" />
+                    	                    <?php
+                    	                    }
+                    	                    ?>
+            	                        </div>
             	                    </th>
             	                    <th class="contenu" > <?php echo $donnees['contenu']; ?> </th>
             	                </tr>

@@ -38,7 +38,7 @@ section
 /********************* Header *********************/
 header
 {
-    background: url('images/separateur.png') repeat-x bottom;
+    background: url('../images/separateur.png') repeat-x bottom;
     background-color: rgb(238, 238, 238);
 }
 
@@ -101,7 +101,7 @@ nav a:hover
 
 footer
 {
-    background:  url('images/separateur.png') repeat-x top, url("images/ico_top.png") no-repeat top;
+    background:  url('../images/separateur.png') repeat-x top, url("../images/ico_top.png") no-repeat top;
     text-align: center;
     background-color: rgb(238, 238, 238);
 }
@@ -197,31 +197,6 @@ figure
 }
 
 /********************** Nouveau Carousel **********************/
-#carousel
-{
-    width: 900px;
-    height: 600px;
-    margin: auto;
-}
-
-#carousel .overview
-{
-    list-style: none;
-    position: absolute;
-    padding: 0;
-    width: 800px;
-    height: 500px;
-    margin: auto;
-}
-
-#carousel .overview li
-{
-    float: left;
-    width: 800px;
-    height: 500px;
-    margin: auto;
-}
-
 #standardPhotosgallery
 {
     margin: auto;
@@ -317,6 +292,7 @@ figure
 .photo img
 {
     max-height: 100%;
+    max-width: 100%;
 }
 
 .pagination

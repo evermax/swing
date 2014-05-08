@@ -52,7 +52,7 @@
 /*---------------------------------
  *  Counter
  *---------------------------------*/
-.sliderkit .sliderkit-count{position:absolute;top:5px;right:5px;z-index:10;padding:5px;color:#fff;background:#000;}
+.sliderkit .sliderkit-count{position:absolute;top:550px;right:50px;z-index:10;padding:5px;color:#000;}
 
 /*---------------------------------
  *  Loader

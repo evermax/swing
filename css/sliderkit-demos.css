@@ -136,13 +136,13 @@
 /*---------------------------------
  *  Photos gallery > Standard
  *---------------------------------*/
-.photosgallery-std{width:500px;height:335px;padding:0 0 76px;}
+.photosgallery-std{width:800px;height:500px;padding:0 0 76px;}
 
 /* Navbar */
-.photosgallery-std .sliderkit-nav{left:0;bottom:0;width:480px;padding:10px;background:#000;}
+.photosgallery-std .sliderkit-nav{left:140px;bottom:0;width:500px;padding:10px;}
 .photosgallery-std .sliderkit-nav-clip ul li{float:left;margin:0;}
-.photosgallery-std .sliderkit-nav-clip ul li a{display:block;width:75px;height:50px;overflow:hidden;margin:0;padding:3px;}
-.photosgallery-std .sliderkit-nav-clip ul li.sliderkit-selected a{padding:0;border:3px solid #fff;}
+.photosgallery-std .sliderkit-nav-clip ul li a{display:block;width:75px;height:50px;overflow:hidden;margin:0;padding:3px;background-color:#000;margin-left:2px;margin-right:2px;}
+/*.photosgallery-std .sliderkit-nav-clip ul li.sliderkit-selected a{padding:0;border:3px solid #fff;}*/
 
 /* Buttons */
 .photosgallery-std .sliderkit-btn{position:absolute;top:0;}
@@ -165,14 +165,14 @@
 .photosgallery-std .sliderkit-go-btn{position:absolute;top:0;z-index:10;width:50px;height:335px;}
 .photosgallery-std .sliderkit-go-prev{left:0;}
 .photosgallery-std .sliderkit-go-next{right:0;}
-.photosgallery-std .sliderkit-go-btn a{display:block;width:50px;height:335px;opacity:0.6;cursor:pointer;background-color:#fff;background-repeat:no-repeat;background-position:center center;}
+.photosgallery-std .sliderkit-go-btn a{display:block;width:50px;height:500px;opacity:0.6;cursor:pointer;background-color:#fff;background-repeat:no-repeat;background-position:center center;}
 .photosgallery-std .sliderkit-go-prev a{background-image:url("../images/slider-arrow-left.gif");}
 .photosgallery-std .sliderkit-go-next a{background-image:url("../images/slider-arrow-right.gif");}
 .photosgallery-std .sliderkit-btn-disable a{opacity:0/*can be set to any value until 1*/;cursor:default;}
 .photosgallery-std .sliderkit-go-btn span{display:none;}
 
 /* Panel */
-.photosgallery-std .sliderkit-panel{top:0;left:0;width:500px;height:335px;}
+.photosgallery-std .sliderkit-panel{top:0;left:0;width:800px;height:500px;}
 
 /*---------------------------------
  *  Photos gallery > With captions

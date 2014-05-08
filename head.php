@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/gallery.theme.css" />
     <link rel="stylesheet" href="css/gallery.min.css" />
 
