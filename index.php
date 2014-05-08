@@ -44,7 +44,7 @@
                     </article>
 		
                     <aside>
-                        <h1>Une participation sur 3 générations</h1>
+                        <h2>Une participation sur 3 générations</h2>
                         
                         <p><em>Le grand-père</em> : Paul, calculs et brevet</br>
                         <em>Le père et la mère</em> : Frédéric, construction et tests prototypes, et Gisèle, aides</br>

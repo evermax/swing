@@ -3,6 +3,7 @@
 body
 {   
     background-color: rgb(238, 238, 238);
+    font-family: "Trebuchet MS";
 }
 
 .bloc_page
@@ -23,7 +24,15 @@ body
 
 .corps h1
 {
-    color: #0F2240;
+    color: #113D7F;
+}
+
+section
+{
+    background-color: #6FA9FF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px #1c1a19;
+    padding: 10px;
 }
 
 /********************* Header *********************/
@@ -70,11 +79,6 @@ nav a:hover
     border-bottom: 3px solid #000060;
 }
 */
-
-.erreur
-{
-    color: red;
-}
 
 #onglets
 {
@@ -128,7 +132,7 @@ aside
 {
     position: relative;
     width: 200px;
-    background-color: #706b64;
+    background-color: #38547F;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
     padding: 10px;
@@ -136,23 +140,11 @@ aside
     font-size: 0.9em;
 }
 
-section aside h1
+section aside h2
 {
     font-size: 1.2em;
     text-align: center;
-}
-
-section
-{
-    background-color: rgba(66, 173, 204 , 0.3);
-    border-radius: 10px;
-    box-shadow: 0px 2px 2px #1c1a19;
-    padding: 10px;
-}
-
-#banniere_image
-{
-    margin-top: 10px;
+    color: white;
 }
 
 .panoramique
@@ -161,11 +153,6 @@ section
 }
 
 /********************** PAGE DESCRIPTION **********************/
-.tableau
-{
-    
-}
-
 .tableau .ro2
 {
     text-align: center;
@@ -246,11 +233,11 @@ figure
 
 .news h1
 {
-    text-align:center;
-    background-color:black;
-    color:white;
-    font-size:1em;
-    margin-bottom:0px;
+    text-align: center;
+    background-color: #113D7F;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding-top: 5px;
@@ -265,12 +252,12 @@ figure
 .contenu
 {
     margin-bottom: 0px;
-    margin-top:0px;
+    margin-top: 0px;
     padding-top: 5px;
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    background-color:#CCCCCC;
+    background-color: #6FA9FF;
     font-weight: normal;
 }
 
@@ -282,7 +269,7 @@ figure
     padding-right: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color:#CCCCCC;
+    background-color: #6FA9FF;
     text-align: right;
     font-weight: normal;
 }
@@ -322,3 +309,15 @@ figure
 }
 
 /********************** ADMIN **********************/
+.erreur
+{
+    color: red;
+}
+
+/********************** COULEURS **********************/
+/*
+Couleur fond grosses bulles = couleur fond billets, changer section background-color et .contenu background-color et .date background-color
+Couleur titres = couleur fond titre billets, changer .corps h1 color et .news h1 background-color
+Couleur de la bulle "Une participation sur 3 générations", changer aside background-color
+Changer la police dans body font-family
+*/

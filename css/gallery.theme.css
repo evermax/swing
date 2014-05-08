@@ -13,14 +13,13 @@
 */
 .gallery {
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 
 .gallery .item {
   height: 400px;
   overflow: hidden;
   text-align: center;
-  /*background: black;*/
 }
 
 .gallery .ombre {
