@@ -10,21 +10,52 @@
             
             <div class="corps">
 
-	            <div id="carousel">
-		            <a class="buttons prev" href="#">&#60;</a>
-		            <div class="viewport">
-			            <ul class="overview">
-				            <li><img src="images/img1.jpg" /></li>
-				            <li><img src="images/img2.jpg" /></li>
-				            <li><img src="images/img3.jpg" /></li>
-				            <li><img src="images/img4.jpg" /></li>
-				            <li><img src="images/img5.jpg" /></li>
-				            <li><img src="images/img6.jpg" /></li>
-				            <li><video src="swing_a_bord.avi" controls width="700px"⁪></video⁪⁪></li>
-			            </ul>
-		            </div>
-		            <a class="buttons next" href="#">&#62;</a>
-	            </div>
+				<!-- Start photosgallery-std -->
+				<div id="standardPhotosgallery" class="sliderkit photosgallery-std">
+					<div class="sliderkit-nav">
+						<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-prev"><a rel="nofollow" href="#" title="Previous line"><span>Previous line</span></a></div>
+						<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-next"><a rel="nofollow" href="#" title="Next line"><span>Next line</span></a></div>
+						
+						<div class="sliderkit-nav-clip">
+							<ul>
+								<li><a href="#" rel="nofollow" ><img src="images/img1.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img2.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img3.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img4.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img5.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img6.jpg" /></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="sliderkit-panels">
+						<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev"><a rel="nofollow" href="#" title="Previous"><span>Previous</span></a></div>
+						<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next"><a rel="nofollow" href="#" title="Next"><span>Next</span></a></div>
+
+						<div class="sliderkit-count sliderkit-count-items">
+							<span class="sliderkit-count-current"></span><span class="sliderkit-count-sep">/</span><span class="sliderkit-count-total"></span>
+						</div>
+					
+						<div class="sliderkit-panel">
+							<img src="images/img1.jpg" />
+						</div>
+						<div class="sliderkit-panel">
+							<img src="images/img2.jpg" />
+						</div>
+						<div class="sliderkit-panel">
+							<img src="images/img3.jpg" />
+						</div>
+						<div class="sliderkit-panel">
+							<img src="images/img4.jpg" />
+						</div>
+						<div class="sliderkit-panel">
+							<img src="images/img5.jpg" />
+						</div>
+						<div class="sliderkit-panel">
+							<img src="images/img6.jpg" />
+						</div>
+					</div>
+				</div>
+				<!-- // end of photosgallery-std -->
 
             </div>
             <?php include("footer.php"); ?>
