@@ -1,5 +1,5 @@
 <header>
-    <h1 class="titre_principal">S'Wing</h1>
+    <a href="index.php"><h1 class="titre_principal">S'Wing</h1></a>
     
     <nav>
         <div class="menu">
