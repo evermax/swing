@@ -178,41 +178,43 @@ section aside h3
 }
 
 /********************** PAGE DESCRIPTION **********************/
-.tableau .ro2
+.tableau_comparatif
+{
+    border-spacing: 0px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+.tableau_comparatif .ro2
 {
     text-align: center;
     border: 1px solid black;
 }
 
-.tableau .ro1
+.tableau_comparatif .ro1
 {
     font-weight: bold;
     text-align: center;
     border: 1px solid black;
 }
 
-.tableau .ce15
+.tableau_comparatif .ce15
 {
     font-style: italic;
     border: 1px solid black;
 }
 
-.tableau .ce18
+.tableau_comparatif .ce19, .ce21, .ce18
 {
     border: 1px solid black;
 }
 
-.tableau .ce19
+.tableau_comparatif tr
 {
-    border: 1px solid black;
-}
-
-.tableau
-{
-    border-spacing: 0px;
-    padding: 0px;
-    border: 1px solid black;
-    border-collapse: collapse;
+    line-height: 15px;
 }
 
 /********************** PAGE IMAGES **********************/
