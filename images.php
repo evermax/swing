@@ -18,12 +18,12 @@
 						
 						<div class="sliderkit-nav-clip">
 							<ul>
-								<li><a href="#" rel="nofollow" ><img src="images/img1.jpg" alt="images/img1.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/img2.jpg" alt="images/img2.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/img3.jpg" alt="images/img3.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/img4.jpg" alt="images/img4.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/img5.jpg" alt="images/img5.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/img6.jpg" alt="images/img6.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img1.jpg" alt="images/carousel_images/img1.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img2.jpg" alt="images/carousel_images/img2.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img3.jpg" alt="images/carousel_images/img3.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img4.jpg" alt="images/carousel_images/img4.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img5.jpg" alt="images/carousel_images/img5.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img6.jpg" alt="images/carousel_images/img6.jpg" /></a></li>
 							</ul>
 						</div>
 					</div>
@@ -36,7 +36,7 @@
 						</div>
 					
 						<div class="sliderkit-panel">
-							<a href="images/img1.jpg"><img src="images/img1.jpg" alt="images/img1.jpg" /></a>
+							<a href="images/carousel_images/img1.jpg"><img src="images/carousel_images/img1.jpg" alt="images/carousel_images/img1.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 1</h4>
@@ -46,7 +46,7 @@
 							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<a href="images/img2.jpg"><img src="images/img2.jpg" alt="images/img2.jpg" /></a>
+							<a href="images/carousel_images/img2.jpg"><img src="images/carousel_images/img2.jpg" alt="images/carousel_images/img2.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 2</h4>
@@ -56,7 +56,7 @@
 							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<a href="images/img3.jpg"><img src="images/img3.jpg" alt="images/img3.jpg" /></a>
+							<a href="images/carousel_images/img3.jpg"><img src="images/carousel_images/img3.jpg" alt="images/carousel_images/img3.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 3</h4>
@@ -76,7 +76,7 @@
 							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<a href="images/img5.jpg"><img src="images/img5.jpg" alt="images/img5.jpg" /></a>
+							<a href="images/carousel_images/img5.jpg"><img src="images/carousel_images/img5.jpg" alt="images/carousel_images/img5.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 5</h4>
@@ -86,7 +86,7 @@
 							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<a href="images/img6.jpg"><img src="images/img6.jpg" alt="images/img6.jpg" /></a>
+							<a href="images/carousel_images/img6.jpg"><img src="images/carousel_images/img6.jpg" alt="images/carousel_images/img6.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 6</h4>
