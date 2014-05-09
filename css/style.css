@@ -156,30 +156,38 @@ section aside h2
 .tableau .ro2
 {
     text-align: center;
+    border: 1px solid black;
 }
 
 .tableau .ro1
 {
     font-weight: bold;
     text-align: center;
+    border: 1px solid black;
 }
 
 .tableau .ce15
 {
     font-style: italic;
+    border: 1px solid black;
 }
 
-table
+.tableau .ce18
+{
+    border: 1px solid black;
+}
+
+.tableau .ce19
+{
+    border: 1px solid black;
+}
+
+.tableau
 {
     border-spacing: 0px;
     padding: 0px;
     border: 1px solid black;
     border-collapse: collapse;
-}
-
-th, td
-{
-    border: 1px solid black;
 }
 
 /********************** PAGE IMAGES **********************/
