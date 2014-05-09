@@ -27,7 +27,7 @@
                 
                 <h1>Les avantages de S'Wing</h1>
                 
-                <table border="1" cellspacing="0" cellpadding="0" class="tableau">
+                <table class="tableau">
                     <tr class="ro1">
                         <td class="ce14"> </td>
                         <td class="ce18"><p>S'Wing</p></td>

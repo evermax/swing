@@ -46,8 +46,8 @@
                     <aside>
                         <h2>Une participation sur 3 générations</h2>
                         
-                        <p><em>Le grand-père</em> : Paul, calculs et brevet</br>
-                        <em>Le père et la mère</em> : Frédéric, construction et tests prototypes, et Gisèle, aides</br>
+                        <p><em>Le grand-père</em> : Paul, calculs et brevet<br />
+                        <em>Le père et la mère</em> : Frédéric, construction et tests prototypes, et Gisèle, aides<br />
                         <em>Les enfants</em> : Chloé, Arthur et Félix, aides</p>
                     </aside>
 		            

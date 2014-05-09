@@ -36,7 +36,7 @@
 						</div>
 					
 						<div class="sliderkit-panel">
-							<a href="images/img1.jpg" rel="group1"><img src="images/img1.jpg" /></a>
+							<a href="images/img1.jpg"><img src="images/img1.jpg" alt="images/img1.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 1</h4>
@@ -46,7 +46,7 @@
 							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<a href="images/img2.jpg" rel="group1"><img src="images/img2.jpg" /></a>
+							<a href="images/img2.jpg"><img src="images/img2.jpg" alt="images/img2.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 2</h4>
@@ -56,7 +56,7 @@
 							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<a href="images/img3.jpg" rel="group1"><img src="images/img3.jpg" /></a>
+							<a href="images/img3.jpg"><img src="images/img3.jpg" alt="images/img3.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 3</h4>
@@ -66,7 +66,7 @@
 							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<a href="images/img4.jpg" rel="group1"><img src="images/img4.jpg" /></a>
+							<a href="images/img4.jpg"><img src="images/img4.jpg" alt="images/img4.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 4</h4>
@@ -76,7 +76,7 @@
 							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<a href="images/img5.jpg" rel="group1"><img src="images/img5.jpg" /></a>
+							<a href="images/img5.jpg"><img src="images/img5.jpg" alt="images/img5.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 5</h4>
@@ -86,7 +86,7 @@
 							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<a href="images/img6.jpg" rel="group1"><img src="images/img6.jpg" /></a>
+							<a href="images/img6.jpg"><img src="images/img6.jpg" alt="images/img6.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 6</h4>
@@ -94,6 +94,12 @@
 								</div>
 								<div class="sliderkit-panel-overlay"></div>
 							</div>
+						</div>
+						<div class="sliderkit-panel">
+	                        <object type="application/x-shockwave-flash" width="425" height="355" data="https://www.youtube.com/watch?v=PVtxtI7SzyE">
+		                        <param name="movie" value="https://www.youtube.com/watch?v=PVtxtI7SzyE" />
+		                        <param name="wmode" value="transparent" />
+	                        </object>
 						</div>
 					</div>
 				</div>
