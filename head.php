@@ -7,6 +7,7 @@
 	<script type="text/javascript" src="js/external/_oldies/jquery-1.3.min.js"></script>
 	<script type="text/javascript" src="js/external/jquery.easing.1.3.min.js"></script>
 	<script type="text/javascript" src="js/external/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
 	<script type="text/javascript" src="js/sliderkit/jquery.sliderkit.1.9.2.pack.js"></script>		
 	<script type="text/javascript" src="js/sliderkit/addons/sliderkit.delaycaptions.1.1.pack.js"></script>
 	<script type="text/javascript" src="js/sliderkit/addons/sliderkit.counter.1.0.pack.js"></script>
@@ -75,6 +76,7 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/sliderkit-core.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="css/sliderkit-demos.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen, projection" />
 	
     <title>S'Wing</title>
 </head>

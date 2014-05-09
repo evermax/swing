@@ -218,6 +218,7 @@ figure
 
 .sliderkit-panel img
 {
+    height: 500px;
     max-width: 100%;
     max-height: 100%;
 }

@@ -36,22 +36,64 @@
 						</div>
 					
 						<div class="sliderkit-panel">
-							<img src="images/img1.jpg" />
+							<a href="images/img1.jpg" rel="group1"><img src="images/img1.jpg" /></a>
+							<div class="sliderkit-panel-textbox">
+								<div class="sliderkit-panel-text">
+									<h4>Image 1</h4>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+								</div>
+								<div class="sliderkit-panel-overlay"></div>
+							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<img src="images/img2.jpg" />
+							<a href="images/img2.jpg" rel="group1"><img src="images/img2.jpg" /></a>
+							<div class="sliderkit-panel-textbox">
+								<div class="sliderkit-panel-text">
+									<h4>Image 2</h4>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+								</div>
+								<div class="sliderkit-panel-overlay"></div>
+							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<img src="images/img3.jpg" />
+							<a href="images/img3.jpg" rel="group1"><img src="images/img3.jpg" /></a>
+							<div class="sliderkit-panel-textbox">
+								<div class="sliderkit-panel-text">
+									<h4>Image 3</h4>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+								</div>
+								<div class="sliderkit-panel-overlay"></div>
+							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<img src="images/img4.jpg" />
+							<a href="images/img4.jpg" rel="group1"><img src="images/img4.jpg" /></a>
+							<div class="sliderkit-panel-textbox">
+								<div class="sliderkit-panel-text">
+									<h4>Image 4</h4>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+								</div>
+								<div class="sliderkit-panel-overlay"></div>
+							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<img src="images/img5.jpg" />
+							<a href="images/img5.jpg" rel="group1"><img src="images/img5.jpg" /></a>
+							<div class="sliderkit-panel-textbox">
+								<div class="sliderkit-panel-text">
+									<h4>Image 5</h4>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+								</div>
+								<div class="sliderkit-panel-overlay"></div>
+							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<img src="images/img6.jpg" />
+							<a href="images/img6.jpg" rel="group1"><img src="images/img6.jpg" /></a>
+							<div class="sliderkit-panel-textbox">
+								<div class="sliderkit-panel-text">
+									<h4>Image 6</h4>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+								</div>
+								<div class="sliderkit-panel-overlay"></div>
+							</div>
 						</div>
 					</div>
 				</div>

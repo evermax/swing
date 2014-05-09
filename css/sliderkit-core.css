@@ -15,7 +15,7 @@
  *  PLUGIN BASICS
  *  ------------------------------------------------
  */
-.sliderkit{display:none;position:relative;overflow:hidden;text-align:left;}
+.sliderkit{display:none;position:relative;overflow:hidden;}
 .sliderkit a,
 .sliderkit a:hover{text-decoration:none;}
 .sliderkit a:focus{outline:1px dotted #000;/*optional*/}
