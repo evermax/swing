@@ -1,11 +1,13 @@
 <header>
+    <h1 class="titre_principal">S'Wing</h1>
     <nav>
-        <ul>
-            <li><h1>S'Wing</h1></li>
-            <li><a href="ajout_billet.php" id="ajout_billet">Ajouter un billet</a></li>
-            <li><a href="gestion.php" id="gestion">Gérer mes billets</a></li>
-            <li><a href="changer_mdp.php" id="changer_mdp">Changer mon mot de passe</a></li>
-        </ul>
+        <div class="menu">
+            <ul class="onglets">
+                <li id="ajout_billet"><a href="ajout_billet.php">Ajouter un billet</a></li>
+                <li id="gestion"><a href="gestion.php">Gérer mes billets</a></li>
+                <li id="changer_mdp"><a href="changer_mdp.php">Changer mon mot de passe</a></li>
+            </ul>
+        </div>
     </nav>
 </header>
 <script src="onglet_admin.js"></script>

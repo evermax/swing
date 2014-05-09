@@ -42,7 +42,7 @@ header
     background-color: rgb(238, 238, 238);
 }
 
-#titre_principal
+.titre_principal
 {
     display: inline-block;
 }
@@ -80,7 +80,7 @@ nav a:hover
 }
 */
 
-#onglets
+.onglets
 {
     position : absolute;
     list-style-type : none;
@@ -88,7 +88,7 @@ nav a:hover
     width : 750px;
 }
 
-#onglets li.active
+.onglets li.active
 {
     background-color: #fff;
     border-top: 2px solid rgb(170, 142, 147);
