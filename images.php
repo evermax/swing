@@ -18,12 +18,12 @@
 						
 						<div class="sliderkit-nav-clip">
 							<ul>
-								<li><a href="#" rel="nofollow" ><img src="images/img1.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/img2.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/img3.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/img4.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/img5.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/img6.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img1.jpg" alt="images/img1.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img2.jpg" alt="images/img2.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img3.jpg" alt="images/img3.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img4.jpg" alt="images/img4.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img5.jpg" alt="images/img5.jpg" /></a></li>
+								<li><a href="#" rel="nofollow" ><img src="images/img6.jpg" alt="images/img6.jpg" /></a></li>
 							</ul>
 						</div>
 					</div>
