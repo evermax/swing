@@ -52,13 +52,13 @@
                     	                    if ($donnees['auteur'] == "Chloe")
                     	                    {
                     	                    ?>
-                    	                            <img src="images/lion.jpg" alt="<?php echo $donnees['auteur']; ?>" />
+                    	                            <img src="images/icones/lion.jpg" alt="<?php echo $donnees['auteur']; ?>" />
                     	                    <?php
                     	                    }
                     	                    else if ($donnees['auteur'] == "Maxime")
                     	                    {
                     	                    ?>
-                    	                        <img src="images/singe.jpg" alt="<?php echo $donnees['auteur']; ?>" />
+                    	                        <img src="images/icones/singe.jpg" alt="<?php echo $donnees['auteur']; ?>" />
                     	                    <?php
                     	                    }
                     	                    ?>
