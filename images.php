@@ -66,7 +66,7 @@
 							</div>
 						</div>
 						<div class="sliderkit-panel">
-							<a href="images/img4.jpg"><img src="images/img4.jpg" alt="images/img4.jpg" /></a>
+							<a href="images/carousel_images/img4.jpg"><img src="images/carousel_images/img4.jpg" alt="images/carousel_images/img4.jpg" /></a>
 							<div class="sliderkit-panel-textbox">
 								<div class="sliderkit-panel-text">
 									<h4>Image 4</h4>
