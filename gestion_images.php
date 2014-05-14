@@ -29,6 +29,10 @@
             		                </td>
             		                
             		                <td class="texte_supp">
+            		                    <a href="modifier_photo.php?photo=<?php echo($donnees['nom']); ?>" rel="nofollow" >Modifier</a>
+            		                </td>
+            		                
+            		                <td class="texte_supp">
             		                    <a href="supprimer_photo.php?photo=<?php echo($donnees['nom']); ?>" rel="nofollow" >Supprimer</a>
             		                </td>
             		            </tr>
