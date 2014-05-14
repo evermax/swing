@@ -23,7 +23,7 @@
                                 while(false !== ($fichierCourant = readdir($dossierCourant)))
                                 {
 							        ?>
-								    <li><a href="#" rel="nofollow" ><img src="images/carousel_images/ <?php echo($fichierCourant); ?>" alt="images/carousel_images/<?php echo($fichierCourant); ?>" /></a></li>
+								    <li><a href="#" rel="nofollow" ><img src="images/carousel_images/<?php echo($fichierCourant); ?>" alt="images/carousel_images/<?php echo($fichierCourant); ?>" /></a></li>
 								    <?php
                                 }
                                 closedir($dossierCourant);
