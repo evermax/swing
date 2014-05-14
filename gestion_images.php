@@ -16,7 +16,11 @@
                 		
                 		<form id="uploadForm" enctype="multipart/form-data" action="upload.php" target="uploadFrame" method="post">
                             <label for="uploadFile">Image :</label>
-                            <input id="uploadFile" name="uploadFile" type="file" />
+                            <input id="uploadFile" name="uploadFile" type="file" /><br />
+                            <label for="titre">Titre associé à l'image</label>
+                            <input id="titre" name="titre" type="text"/><br />
+                            <label for="legende">Légende associé à l'image</label>
+                            <textarea rows="3" cols="60" name="legende" ></textarea>
                             <br /><br />
                             <input id="uploadSubmit" type="submit" value="Upload !" />
                         </form>
