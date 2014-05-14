@@ -11,7 +11,7 @@
             <div class="corps">
             
                 <?php
-                $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+                include("base.inc.php");
                 $reponse = $bdd->query('SELECT * FROM legende_carousel ORDER BY id');
                 ?>
 

@@ -16,7 +16,7 @@ if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
 		}
 		else
 		{
-			$bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+			include("base.inc.php");
 			$requete = $bdd->prepare('SELECT mdp FROM admin WHERE id = :id');
 			$requete->execute(array('id' => $id));
 			

@@ -5,7 +5,7 @@ if ($_POST['pseudo'] !== null && strip_tags($_POST['mdp']) !== null)
 	$pseudo = strip_tags($_POST['pseudo']);
 	$mdp_hache = sha1(strip_tags($_POST['mdp']));
 	
-	$bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+	include("base.inc.php");
 	$req = $bdd->prepare('SELECT id FROM admin WHERE pseudo = :pseudo AND mdp = :mdp');
 	$req->execute(array('pseudo' => $pseudo, 'mdp' => $mdp_hache));
 	

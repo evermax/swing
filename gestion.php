@@ -17,7 +17,7 @@
 		    
     		    <div class="corps">
         		    <?php
-        	        $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        	        include("base.inc.php");
         	        $requete = $bdd->prepare('SELECT id, titre, contenu, DATE_FORMAT(date_creation, \'%d/%m/%Y à %Hh%i\') AS date_creation_fr FROM billets WHERE auteur = :auteur ORDER BY date_creation DESC LIMIT 0, 5');
         	        $requete->execute(array('auteur' => $pseudo));
         	

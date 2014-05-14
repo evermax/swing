@@ -13,7 +13,7 @@
     		<div class="bloc_page">
     		    <?php
                     include("menu_admin.php");
-                    $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+                    include("base.inc.php");
                     $reponse = $bdd->query('SELECT nom FROM legende_carousel ORDER BY id');
                 ?>
                 
