@@ -49,6 +49,7 @@
                                 if (error === 'OK') {
                                     document.getElementById('uploadStatus').innerHTML = '<a href="' + path + '">Upload done !</a><br /><br /><a href="' + path + '"><img src="' + path + '" /></a>';
                                 } else {
+                                    error = error.fontcolor("red");
                                     document.getElementById('uploadStatus').innerHTML = error;
                                 }
                             }
