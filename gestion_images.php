@@ -11,9 +11,15 @@
             		include("menu_admin.php");
             		?>
             		<h1>Gérer les images</h1>
-            <?php } else { ?>
+            <?php
+                }
+                else
+                {
+            ?>
             Perdu ?
-            <?php } ?>
+            <?php
+                }
+            ?>
         </div>
     </body>
 </html>
