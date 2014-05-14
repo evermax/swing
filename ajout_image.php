@@ -20,12 +20,12 @@
                             
                             <table>
             		            <tr>
-            		                <td><label for="titre">Titre associé à l'image</label></td>
+            		                <td><label for="titre">Titre associé à l'image :</label></td>
             		                <td><input id="titre" name="titre" type="text"/></td>
             		            </tr>
             		            
             		            <tr>
-                		    	    <td><label for="legende">Légende associé à l'image</label></td>
+                		    	    <td><label for="legende">Légende associé à l'image :</label></td>
                 		    	    <td><textarea rows="3" cols="60" name="legende" maxlength="250" ></textarea></td>
             		            </tr>
             		            
@@ -47,7 +47,7 @@
                         <script>
                             function uploadEnd(error, path) {
                                 if (error === 'OK') {
-                                    document.getElementById('uploadStatus').innerHTML = '<a href="' + path + '">Upload done !</a><br /><br /><a href="' + path + '"><img src="' + path + '" /></a>';
+                                    document.getElementById('uploadStatus').innerHTML = 'Upload done !';
                                 } else {
                                     error = error.fontcolor("red");
                                     document.getElementById('uploadStatus').innerHTML = error;

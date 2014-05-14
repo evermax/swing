@@ -52,7 +52,7 @@
     }
     else
     {
-        $error = 'Aucun fichier réceptionné.';
+        $error = 'Aucun fichier sélectionné.';
     }
 
 // Et pour finir, on écrit l'appel vers la fonction uploadEnd : 
