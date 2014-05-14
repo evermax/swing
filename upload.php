@@ -5,6 +5,9 @@
     $filetype = NULL;
 
     if (isset($_FILES['uploadFile']) && $_FILES['uploadFile']['error'] === 0) {
+    if (isset($_POST['titre']) && $_POST['legende']){
+        
+    }
 
         $filename = $_FILES['uploadFile']['name'];
         $filetype = $_FILES['uploadFile']['type'];
@@ -15,6 +18,10 @@
             // On déplace le fichier depuis le répertoire temporaire vers $targetpath
             if (@move_uploaded_file($_FILES['uploadFile']['tmp_name'], $targetpath)) { // Si ça fonctionne
                 $error = 'OK';
+                $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+	
+        		$req = $bdd->prepare('INSERT INTO billets (nom, titre, legende) VALUES (:nom, :titre, :legende)');
+        		$req->execute(array('auteur' => $auteur, 'titre' => $titre, 'contenu' => $contenu));
             } else { // Si ça ne fonctionne pas
                 $error = "Échec de l'enregistrement !";
             }
