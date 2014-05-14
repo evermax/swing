@@ -14,25 +14,44 @@
             $filetype = $_FILES['uploadFile']['type'];
             $targetpath = getcwd() . '/images/carousel_images/' . $filename; // On stocke le chemin où enregistrer le fichier
             
+            $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $requete = $bdd->prepare('SELECT nom FROM legende_carousel WHERE nom=:nom');
+            $requete->execute(array('nom' => $filename));
             
-            if (explode("/", $filetype)[0] ==='image') {
-                // On déplace le fichier depuis le répertoire temporaire vers $targetpath
-                if (@move_uploaded_file($_FILES['uploadFile']['tmp_name'], $targetpath)) { // Si ça fonctionne
-                    $error = 'OK';
-                    $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-    	
-            		$req = $bdd->prepare('INSERT INTO legende_carousel (nom, titre, legende) VALUES (:nom, :titre, :legende)');
-            		$req->execute(array('nom' => $filename, 'titre' => $titre, 'legende' => $legende));
-                } else { // Si ça ne fonctionne pas
-                    $error = "Échec de l'enregistrement !";
+            if (!$requete->fetch())
+            {            
+                if (explode("/", $filetype)[0] ==='image')
+                {
+                    // On déplace le fichier depuis le répertoire temporaire vers $targetpath
+                    if (@move_uploaded_file($_FILES['uploadFile']['tmp_name'], $targetpath)) // Si ça fonctionne
+                    {
+                        $error = 'OK';
+        	
+                		$req = $bdd->prepare('INSERT INTO legende_carousel (nom, titre, legende) VALUES (:nom, :titre, :legende)');
+                		$req->execute(array('nom' => $filename, 'titre' => $titre, 'legende' => $legende));
+                    }
+                    else // Si ça ne fonctionne pas
+                    {
+                        $error = "Échec de l'enregistrement !";
+                    }
                 }
-            } else {
-                $error = 'Il faut une image.';
+                else
+                {
+                    $error = 'Il faut une image.';
+                }
             }
-        } else {
+            else
+            {
+                $error = 'Une image portant ce nom existe déjà. Renommez-là avant de recommencer le traitement.';
+            }
+        }
+        else
+        {
             $error = 'Il faut mettre un titre ET une légende.';
         }
-    } else {
+    }
+    else
+    {
         $error = 'Aucun fichier réceptionné.';
     }
 
