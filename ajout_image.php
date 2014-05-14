@@ -20,7 +20,7 @@
                             <label for="titre">Titre associé à l'image</label>
                             <input id="titre" name="titre" type="text"/><br />
                             <label for="legende">Légende associé à l'image</label>
-                            <textarea rows="3" cols="60" name="legende" maxlength="200" ></textarea>
+                            <textarea rows="3" cols="60" name="legende" maxlength="250" ></textarea>
                             <br /><br />
                             <input id="uploadSubmit" type="submit" value="Upload !" />
                         </form>
