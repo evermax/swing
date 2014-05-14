@@ -18,12 +18,16 @@
 						
 						<div class="sliderkit-nav-clip">
 							<ul>
-								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img1.jpg" alt="images/carousel_images/img1.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img2.jpg" alt="images/carousel_images/img2.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img3.jpg" alt="images/carousel_images/img3.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img4.jpg" alt="images/carousel_images/img4.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img5.jpg" alt="images/carousel_images/img5.jpg" /></a></li>
-								<li><a href="#" rel="nofollow" ><img src="images/carousel_images/img6.jpg" alt="images/carousel_images/img6.jpg" /></a></li>
+                                <?php
+                                $dossierCourant = opendir('images/carousel_images/');
+                                while(false !== ($fichierCourant = readdir($dossierCourant)))
+                                {
+							        ?>
+								    <li><a href="#" rel="nofollow" ><img src="images/carousel_images/ <?php echo($fichierCourant); ?>" alt="images/carousel_images/<?php echo($fichierCourant); ?>" /></a></li>
+								    <?php
+                                }
+                                closedir($dossierCourant);
+								?>
 							</ul>
 						</div>
 					</div>
@@ -34,73 +38,28 @@
 						<div class="sliderkit-count sliderkit-count-items">
 							<span class="sliderkit-count-current"></span><span class="sliderkit-count-sep">/</span><span class="sliderkit-count-total"></span>
 						</div>
-					
-						<div class="sliderkit-panel">
-							<a href="images/carousel_images/img1.jpg"><img src="images/carousel_images/img1.jpg" alt="images/carousel_images/img1.jpg" /></a>
-							<div class="sliderkit-panel-textbox">
-								<div class="sliderkit-panel-text">
-									<h4>Image 1</h4>
-									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-								</div>
-								<div class="sliderkit-panel-overlay"></div>
-							</div>
-						</div>
-						<div class="sliderkit-panel">
-							<a href="images/carousel_images/img2.jpg"><img src="images/carousel_images/img2.jpg" alt="images/carousel_images/img2.jpg" /></a>
-							<div class="sliderkit-panel-textbox">
-								<div class="sliderkit-panel-text">
-									<h4>Image 2</h4>
-									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-								</div>
-								<div class="sliderkit-panel-overlay"></div>
-							</div>
-						</div>
-						<div class="sliderkit-panel">
-							<a href="images/carousel_images/img3.jpg"><img src="images/carousel_images/img3.jpg" alt="images/carousel_images/img3.jpg" /></a>
-							<div class="sliderkit-panel-textbox">
-								<div class="sliderkit-panel-text">
-									<h4>Image 3</h4>
-									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-								</div>
-								<div class="sliderkit-panel-overlay"></div>
-							</div>
-						</div>
-						<div class="sliderkit-panel">
-							<a href="images/carousel_images/img4.jpg"><img src="images/carousel_images/img4.jpg" alt="images/carousel_images/img4.jpg" /></a>
-							<div class="sliderkit-panel-textbox">
-								<div class="sliderkit-panel-text">
-									<h4>Image 4</h4>
-									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-								</div>
-								<div class="sliderkit-panel-overlay"></div>
-							</div>
-						</div>
-						<div class="sliderkit-panel">
-							<a href="images/carousel_images/img5.jpg"><img src="images/carousel_images/img5.jpg" alt="images/carousel_images/img5.jpg" /></a>
-							<div class="sliderkit-panel-textbox">
-								<div class="sliderkit-panel-text">
-									<h4>Image 5</h4>
-									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-								</div>
-								<div class="sliderkit-panel-overlay"></div>
-							</div>
-						</div>
-						<div class="sliderkit-panel">
-							<a href="images/carousel_images/img6.jpg"><img src="images/carousel_images/img6.jpg" alt="images/carousel_images/img6.jpg" /></a>
-							<div class="sliderkit-panel-textbox">
-								<div class="sliderkit-panel-text">
-									<h4>Image 6</h4>
-									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-								</div>
-								<div class="sliderkit-panel-overlay"></div>
-							</div>
-						</div>
-						<div class="sliderkit-panel">
-	                        <object type="application/x-shockwave-flash" width="425" height="355" data="https://www.youtube.com/watch?v=PVtxtI7SzyE">
-		                        <param name="movie" value="https://www.youtube.com/watch?v=PVtxtI7SzyE" />
-		                        <param name="wmode" value="transparent" />
-	                        </object>
-						</div>
+						
+						<?php
+                        $dossierCourant = opendir('images/carousel_images/');
+                        $i = 1;
+                        while(false !== ($fichierCourant = readdir($dossierCourant)))
+                        {
+					        ?>
+						    <div class="sliderkit-panel">
+							    <a href="images/carousel_images/<?php echo($fichierCourant); ?>"><img src="images/carousel_images/<?php echo($fichierCourant); ?>" alt="images/carousel_images/<?php echo($fichierCourant); ?>" /></a>
+							    <div class="sliderkit-panel-textbox">
+								    <div class="sliderkit-panel-text">
+									    <h4>Image  <?php echo($i); ?></h4>
+									    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+								    </div>
+								    <div class="sliderkit-panel-overlay"></div>
+							    </div>
+						    </div>
+						    <?php
+						    $i ++;
+                        }
+                        closedir($dossierCourant);
+						?>
 					</div>
 				</div>
 				<!-- // end of photosgallery-std -->
