@@ -9,6 +9,11 @@
             ?>
             
             <div class="corps">
+            
+                <?php
+                $bdd = new PDO('mysql:host=localhost;dbname=swing', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+                $reponse = $bdd->query('SELECT * FROM legende_carousel ORDER BY id');
+                ?>
 
 				<!-- Start photosgallery-std -->
 				<div id="standardPhotosgallery" class="sliderkit photosgallery-std">
@@ -45,24 +50,23 @@
 						
 						<?php
                         $dossierCourant = opendir('images/carousel_images/');
-                        $i = 1;
                         while(false !== ($fichierCourant = readdir($dossierCourant)))
                         {
                             if ($fichierCourant != "." && $fichierCourant != ".." && !in_array($fichierCourant, $fichiersExclus))
                             {
+                                $donnees = $reponse->fetch();
 					            ?>
 						        <div class="sliderkit-panel">
 							        <a href="images/carousel_images/<?php echo($fichierCourant); ?>"><img src="images/carousel_images/<?php echo($fichierCourant); ?>" alt="images/carousel_images/<?php echo($fichierCourant); ?>" /></a>
 							        <div class="sliderkit-panel-textbox">
 								        <div class="sliderkit-panel-text">
-									        <h4>Image  <?php echo($i); ?></h4>
-									        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+									        <h4><?php echo($donnees['titre']); ?></h4>
+									        <p><?php echo($donnees['legende']); ?></p>
 								        </div>
 								        <div class="sliderkit-panel-overlay"></div>
 							        </div>
 						        </div>
 						        <?php
-						        $i ++;
 						    }
                         }
                         closedir($dossierCourant);
