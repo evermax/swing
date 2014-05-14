@@ -19,12 +19,16 @@
 						<div class="sliderkit-nav-clip">
 							<ul>
                                 <?php
+                                $fichiersExclus = array ('.', '..');
                                 $dossierCourant = opendir('images/carousel_images/');
                                 while(false !== ($fichierCourant = readdir($dossierCourant)))
                                 {
-							        ?>
-								    <li><a href="#" rel="nofollow" ><img src="images/carousel_images/<?php echo($fichierCourant); ?>" alt="images/carousel_images/<?php echo($fichierCourant); ?>" /></a></li>
-								    <?php
+                                    if ($fichierCourant != "." && $fichierCourant != ".." && !in_array($fichierCourant, $fichiersExclus))
+                                    {
+							            ?>
+								        <li><a href="#" rel="nofollow" ><img src="images/carousel_images/<?php echo($fichierCourant); ?>" alt="images/carousel_images/<?php echo($fichierCourant); ?>" /></a></li>
+								        <?php
+								    }
                                 }
                                 closedir($dossierCourant);
 								?>
@@ -44,19 +48,22 @@
                         $i = 1;
                         while(false !== ($fichierCourant = readdir($dossierCourant)))
                         {
-					        ?>
-						    <div class="sliderkit-panel">
-							    <a href="images/carousel_images/<?php echo($fichierCourant); ?>"><img src="images/carousel_images/<?php echo($fichierCourant); ?>" alt="images/carousel_images/<?php echo($fichierCourant); ?>" /></a>
-							    <div class="sliderkit-panel-textbox">
-								    <div class="sliderkit-panel-text">
-									    <h4>Image  <?php echo($i); ?></h4>
-									    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-								    </div>
-								    <div class="sliderkit-panel-overlay"></div>
-							    </div>
-						    </div>
-						    <?php
-						    $i ++;
+                            if ($fichierCourant != "." && $fichierCourant != ".." && !in_array($fichierCourant, $fichiersExclus))
+                            {
+					            ?>
+						        <div class="sliderkit-panel">
+							        <a href="images/carousel_images/<?php echo($fichierCourant); ?>"><img src="images/carousel_images/<?php echo($fichierCourant); ?>" alt="images/carousel_images/<?php echo($fichierCourant); ?>" /></a>
+							        <div class="sliderkit-panel-textbox">
+								        <div class="sliderkit-panel-text">
+									        <h4>Image  <?php echo($i); ?></h4>
+									        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+								        </div>
+								        <div class="sliderkit-panel-overlay"></div>
+							        </div>
+						        </div>
+						        <?php
+						        $i ++;
+						    }
                         }
                         closedir($dossierCourant);
 						?>
