@@ -8,22 +8,22 @@
     <?php
     	if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
     	{
-    		$nom = strip_tags($_GET['photo']);
+    		$id = strip_tags($_GET['billet']);
     		?>
     		<div class="bloc_page">
     		    <?php
                     include("menu_admin.php");
                     include("base.inc.php");
-                    $requete = $bdd->prepare('SELECT titre, legende FROM legende_carousel WHERE nom=:nom');
-                    $requete->execute(array('nom' => $nom));
+                    $requete = $bdd->prepare('SELECT titre, contenu FROM billets WHERE id=:id');
+                    $requete->execute(array('id' => $id));
                     
                     $donnees = $requete->fetch();
                 ?>
                 
                 <div class="corps">
-                    <h1>Modification du titre et de la légende d'une photo</h1>
+                    <h1>Modification du titre et du contenu d'un billet</h1>
                     
-                    <form action="modifier_photo_post.php?photo=<?php echo $nom ?>" method="post">
+                    <form action="modifier_billet_post.php?billet=<?php echo $id ?>" method="post">
                         <table>
         		            <tr>
         		                <td><label for="titre">Titre :</label></td>
@@ -31,8 +31,8 @@
         		            </tr>
         		            
         		            <tr>
-            		    	    <td><label for="legende">Légende :</label></td>
-            		    	    <td><textarea id="legende" rows="3" cols="60" name="legende" maxlength="250" ><?php echo $donnees['legende'] ?></textarea></td>
+            		    	    <td><label for="contenu">Contenu :</label></td>
+            		    	    <td><textarea id="contenu" rows="3" cols="60" name="contenu" maxlength="250" ><?php echo $donnees['contenu'] ?></textarea></td>
         		            </tr>
         		            
         		            <tr></tr>

@@ -395,6 +395,11 @@ figure
     text-align: center;
 }
 
+.texte_legende
+{
+    width: 300px;
+}
+
 /********************** COULEURS **********************/
 /*
 Couleur fond grosses bulles = couleur fond billets, changer section background-color et .contenu background-color et .date background-color

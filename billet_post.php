@@ -13,7 +13,7 @@ if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
 		$req = $bdd->prepare('INSERT INTO billets (auteur, titre, contenu, date_creation) VALUES (:auteur, :titre, :contenu, NOW())');
 		$req->execute(array('auteur' => $auteur, 'titre' => $titre, 'contenu' => $contenu));
 		
-		header('Location: gestion.php');
+		header('Location: gestion_billets.php');
 	}
 }
 ?>
