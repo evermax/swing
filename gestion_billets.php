@@ -27,6 +27,14 @@
             		    {
             		        echo("Modifications non effectuées : les champs ne doivent pas être vides.");
             		    }
+            		    if ($_GET["modification"] == "ajout")
+            		    {
+            		        echo("Le billet a été ajouté avec succès !");
+            		    }
+            		    if ($_GET["modification"] == "suppression")
+            		    {
+            		        echo("Le billet a été bien été supprimé.");
+            		    }
         		    } ?></p>
     		    
         		    <?php

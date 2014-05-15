@@ -6,8 +6,8 @@
 
     if (isset($_FILES['uploadFile']) && $_FILES['uploadFile']['error'] === 0) {
     
-        if (isset($_POST['titre']) && $_POST['legende']){
-
+        if (strip_tags($_POST['titre']) !== '' && strip_tags($_POST['legende']) !== '')
+        {
             $titre = $_POST['titre'];
             $legende = $_POST['legende'];
             $filename = $_FILES['uploadFile']['name'];

@@ -9,6 +9,6 @@ if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
 	$requete = $bdd->prepare('DELETE FROM billets WHERE id = :id');
 	$requete->execute(array('id' => $id));
 	
-	header('Location: gestion_billets.php');
+	header('Location: gestion_billets.php?modification=suppression');
 }
 ?>
