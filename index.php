@@ -37,10 +37,16 @@
             <div class="corps">		        
                 <section>
                     <article>
-                        <h1>Résumé</h1>
-                        <p>Bienvenue sur le site internet du S'Wing !</p>
-                        <p>Très bientôt, cette page contiendra une petite description du projet ainsi que le principe du S'Wing dans les grandes lignes. Vous y trouverez également les différentes étapes réalisées et l'avancée actuelle des prototypes.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus lacus et risus tincidunt pulvinar. Aenean diam dolor, ornare eget scelerisque a, lacinia ut lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean scelerisque pretium condimentum. Etiam vitae lacus nec metus iaculis scelerisque. Curabitur nec est felis. Etiam quis tincidunt mi, ac viverra velit. Quisque eget elementum justo.</p>
+                        <h1>Imaginez un voilier totalement révolutionnaire...</h1>
+                        <p>Un voilier dont les voiles se règlent seules sans intervention en fonction du cap choisi.<br />
+                        Un voilier qui ne gîte pas, qui ne se renverse pas.<br />
+                        Un voilier que le vent n’écrase pas sur l’eau, mais au contraire soulage comme les kites ou les planches à voile et qui plane d’autant plus que le vent forcit.</p>
+
+                        <p>Ce voilier existe !</p>
+
+                        <p>La S’WING est une aile (wing) pendulaire (swing) qui  repose sur le principe d’un parapente transposé sur un plan horizontal. Tout comme celui-ci, l’aile, de par son profil, adopte une incidence donnée par rapport au vent qu’elle rencontre (dans le cas de l’aile, par rapport à son vent relatif qui dépend du vent météo et du déplacement du bateau, cap et vitesse). Donc quel que soit le cap choisi, l’incidence de l’aile reste toujours optimale sans intervention (Cf. animation vs voiliers classiques). La seule contrainte de la S’Wing est qu’elle ne vire que vent arrière (manœuvre qui ne nécessite qu’une inversion du profil de l’aile et se fait aisément).<p>
+                        <p>De plus, l’inclinaison de la voile au vent permet d’avoir, comme sur les planches à voile ou les kites (ou le Sail Rocket), une traction ascendante sur le bateau (à la différence des voiles classiques qui l’écrasent dans l’eau).<br />
+                        Cette aile permet de tracter tout engin capable de maintenir un cap sur eau, sol dur, glace, neige… en fonction des équipements (flotteurs, foils, roues, patins, skis…).</p>
                     </article>
 		
                     <aside>
@@ -51,6 +57,14 @@
                         <em>Les enfants</em> : Chloé, Arthur et Félix, aides</p>
                     </aside>
 		            
+                </section>
+                
+                <p></p>
+                
+                <section>
+                    <h1>Fonctionnement en image</h1>
+                    
+                    <img src="images/carousel_accueil/fonctionnement.png" alt="Fonctionnement en image" />
                 </section>
             </div>
             <?php include("footer.php"); ?>
