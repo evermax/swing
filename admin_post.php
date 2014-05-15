@@ -20,7 +20,7 @@ if ($_POST['pseudo'] !== null && strip_tags($_POST['mdp']) !== null)
 	    session_start();
 	    $_SESSION['id'] = $donnees['id'];
 	    $_SESSION['pseudo'] = $pseudo;
-	    header('Location: gestion.php');
+	    header('Location: gestion_billets.php');
 	}	
 }
 ?>

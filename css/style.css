@@ -364,6 +364,7 @@ figure
 .erreur
 {
     color: red;
+    text-align: center;
 }
 
 .tableau_supp
