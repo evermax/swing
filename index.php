@@ -15,15 +15,15 @@
                     <div id="item-3" class="control-operator"></div>
                     
                     <figure class="item ombre">
-                        <img src="images/carousel_accueil/accueil1.jpg" alt="Voilure" class="panoramique" />
+                        <img src="images/accueil/accueil1.jpg" alt="Voilure" class="panoramique" />
                     </figure>
                     
                     <figure class="item ombre">
-                        <img src="images/carousel_accueil/accueil2.jpg" alt="Voilure" class="panoramique" />
+                        <img src="images/accueil/accueil2.jpg" alt="Voilure" class="panoramique" />
                     </figure>
                     
                     <figure class="item ombre">
-                        <img src="images/carousel_accueil/accueil3.jpg" alt="Voilure" class="panoramique" />
+                        <img src="images/accueil/accueil3.jpg" alt="Voilure" class="panoramique" />
                     </figure>
                     
                     <div class="controls">
@@ -64,7 +64,7 @@
                 <section>
                     <h1>Fonctionnement en image</h1>
                     
-                    <img src="images/carousel_accueil/fonctionnement.png" alt="Fonctionnement en image" />
+                    <img src="images/accueil/fonctionnement.png" alt="Fonctionnement en image" />
                 </section>
             </div>
             <?php include("footer.php"); ?>
