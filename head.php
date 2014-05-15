@@ -28,36 +28,6 @@
 				counter:true
 			});
 			
-			// Photo gallery > With captions
-			$(".photosgallery-captions").sliderkit({
-				mousewheel:false,
-				keyboard:true,
-				shownavitems:4,
-				auto:false,
-				delaycaptions:true
-			});
-			
-			// Photo gallery > Vertical
-			$(".photosgallery-vertical").sliderkit({
-				circular:true,
-				mousewheel:true,
-				shownavitems:4,
-				verticalnav:true,
-				navclipcenter:true,
-				auto:false
-			});
-			
-			// Photo gallery > Minimalistic
-			$(".photosgallery-minimalistic").sliderkit({
-				shownavitems:6,
-				circular:true,
-				navitemshover:false,
-				panelfxspeed:400,
-				auto:true,
-				autostill:true,
-				timer:true
-			});
-			
 			// Photo gallery > Example #5
 			$(".photosgallery-5").sliderkit({
 				mousewheel:false,
