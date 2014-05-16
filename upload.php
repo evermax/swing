@@ -10,9 +10,9 @@
             if (strip_tags($_POST['titre']) !== '' && strip_tags($_POST['legende']) !== '')
             {
                 $pseudo = $_SESSION['pseudo'];
-                $titre = strip_tags($_POST['titre']);
-                $legende = strip_tags($_POST['legende']);
-                $filename = str_replace(' ', '_', $_FILES['uploadFile']['name']);
+                $titre = $_POST['titre'];
+                $legende = $_POST['legende'];
+                $filename = $_FILES['uploadFile']['name'];
                 $filetype = $_FILES['uploadFile']['type'];
                 
                 if ($_POST['type'] === 'image') // Si c'est une image
