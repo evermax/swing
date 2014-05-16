@@ -8,7 +8,7 @@
 	<script type="text/javascript" src="js/external/_oldies/jquery-1.3.min.js"></script>
 	<script type="text/javascript" src="js/external/jquery.easing.1.3.min.js"></script>
 	<script type="text/javascript" src="js/external/jquery.mousewheel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+	<script type="text/javascript" src="js/external/jquery.lightbox-0.5.pack.js"></script>
 	<script type="text/javascript" src="js/sliderkit/jquery.sliderkit.1.9.2.pack.js"></script>		
 	<script type="text/javascript" src="js/sliderkit/addons/sliderkit.delaycaptions.1.1.pack.js"></script>
 	<script type="text/javascript" src="js/sliderkit/addons/sliderkit.counter.1.0.pack.js"></script>
