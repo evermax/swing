@@ -73,14 +73,14 @@
 				        <img src="images/videos/video.jpg" alt="VIDEOS" />
 				    </div>
 				
-				    <div class="liens">
+				    <div class="div_videos">
 				    <?php
 				        $rep = $bdd->query('SELECT * FROM video ORDER BY id');
 				        while($donnees = $rep->fetch())
                         {
 				            ?>
 				            <?php $nom = explode(".", $donnees['nom'])[0] ?>
-                            <a href="videos/<?php echo $nom ?>.html"><?php echo $donnees['titre'] ?></a>
+                            <a href="videos/<?php echo $nom ?>.html" class="liens"><?php echo $donnees['titre'] ?></a>
                             <p><?php echo $donnees['legende'] ?></p>
                             <?php
                         }
