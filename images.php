@@ -66,23 +66,27 @@
 				
 				<p></p>
 				
-				<div id="contenu">
-				    <img src="images/videos/img6.jpg" alt="VIDEOS" />
-				</div>
+				<section>
+				    <h1>Vidéos</h1>
 				
-				<div class="liens">
-				<?php
-				    $rep = $bdd->query('SELECT * FROM video ORDER BY id');
-				    while($donnees = $rep->fetch())
-                    {
-				        ?>
-				        <?php $nom = explode(".", $donnees['nom'])[0] ?>
-                        <a href="videos/<?php echo $nom ?>.html"><?php echo $donnees['titre'] ?></a>
-                        <p><?php echo $donnees['legende'] ?></p>
-                        <?php
-                    }
-                ?>
-                </div>
+				    <div id="contenu">
+				        <img src="images/videos/video.jpg" alt="VIDEOS" />
+				    </div>
+				
+				    <div class="liens">
+				    <?php
+				        $rep = $bdd->query('SELECT * FROM video ORDER BY id');
+				        while($donnees = $rep->fetch())
+                        {
+				            ?>
+				            <?php $nom = explode(".", $donnees['nom'])[0] ?>
+                            <a href="videos/<?php echo $nom ?>.html"><?php echo $donnees['titre'] ?></a>
+                            <p><?php echo $donnees['legende'] ?></p>
+                            <?php
+                        }
+                    ?>
+                    </div>
+                </section>
 
             </div>
             <?php include("footer.php"); ?>
