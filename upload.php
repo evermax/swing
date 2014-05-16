@@ -69,7 +69,7 @@
                         		$toChloe = "chloe.brouzes@hotmail.fr";
                         		$toMaxime = "maxlasserre@free.fr";
                                 $subject = "Ajout video";
-                                $email = "Une vidéo vient d'être ajoutée par "+  +".\nElle se nomme " + $filename + ".\nIl faut maintenant la mettre aux bons formats.\nBon courage !\n\nCordialement,\nLa messagerie automatique.\n\n\nCe mail est automatique, vous êtes priez de ne pas répondre ! Si il ne vous est pas destiné, merci de ne pas en tenir compte et d'avertir immédiatement le propriétaire du site.";
+                                $email = "Une vidéo vient d'être ajoutée par " . $pseudo . ".\nElle se nomme " . $filename . ".\nIl faut maintenant la mettre aux bons formats.\nBon courage !\n\nCordialement,\nLa messagerie automatique.\n\n\nCe mail est automatique, vous êtes priez de ne pas répondre ! Si il ne vous est pas destiné, merci de ne pas en tenir compte et d'avertir immédiatement le propriétaire du site.";
                                 $headers   = array();
                                 $headers[] = "MIME-Version: 1.0";
                                 $headers[] = "Content-type: text/plain; charset=UTF-8";
