@@ -12,7 +12,7 @@
                 $pseudo = $_SESSION['pseudo'];
                 $titre = $_POST['titre'];
                 $legende = $_POST['legende'];
-                $filename = $_FILES['uploadFile']['name'];
+                $filename = str_replace(" ", "_", $_FILES['uploadFile']['name']);
                 $filetype = $_FILES['uploadFile']['type'];
                 
                 if ($_POST['type'] === 'image') // Si c'est une image
