@@ -35,7 +35,7 @@
 
 /*--------------------------------- Panels ---------------------------------*/
 .sliderkit .sliderkit-panel{z-index:1;position:absolute;overflow:hidden;}
-.sliderkit .sliderkit-panel-active{z-index:5;}
+.sliderkit .sliderkit-panel-active{z-index:5;background-color:rgb(220, 220, 220);}
 .sliderkit .sliderkit-panel-old{z-index:4;}
 
 /* Panels > Overlay */
