@@ -82,10 +82,26 @@
 				        $rep = $bdd->query('SELECT * FROM video ORDER BY id');
 				        while($donnees = $rep->fetch())
                         {
-				            ?>
-				            <?php $nom = explode(".", $donnees['nom'])[0] ?>
-                            <a href="videos/<?php echo $nom ?>.html" class="liens"><?php echo $donnees['titre'] ?></a>
-                            <p><?php echo $donnees['legende'] ?></p>
+				            $nom = explode(".", $donnees['nom'])[0] ?>
+				            
+				            <p>
+                            <table class="table_videos" cellspacing="0" cellpadding="0" >
+            	                <tr>
+            	                    <td rowspan="2">
+            	                        <div class="photo">
+                    	                    <img src="images/videos/<?php echo $nom ?>.png" alt="<?php echo $nom ?>" />
+            	                        </div>
+            	                    </td>
+            	                    <td>
+            	                        <a href="videos/<?php echo $nom ?>.html" class="liens" title="Cliquez pour regarder la vidéo !"><?php echo $donnees['titre'] ?></a>
+            	                    </td>
+            	                </tr>
+            	                
+            	                <tr>
+            	                    <td class="bottom" ><?php echo $donnees['legende']; ?></td>
+            	                </tr>
+            	            </table>
+            	            </p>
                             <?php
                         }
                     ?>

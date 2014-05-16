@@ -42,7 +42,7 @@
             	            <table class="billet" cellspacing="0" cellpadding="0" >
             	                <tr>
             	                    <th class="auteur"><?php echo $donnees['auteur']; ?></th>
-            	                    <th><h1> <?php echo $donnees['titre']; ?></h1></th>
+            	                    <th><h1><?php echo $donnees['titre']; ?></h1></th>
             	                </tr>
             	                
             	                <tr>
