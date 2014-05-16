@@ -47,7 +47,7 @@
 	
 	<script type="text/javascript">
         $(document).ready(function () {
-            $("a").click(function () {
+            $(".liens a").click(function () {
                 page = ($(this).attr("href"));
                 $.ajax({
                     url: page,
