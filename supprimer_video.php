@@ -19,6 +19,7 @@ if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
 	    unlink ('images/videos/' . $nom_exp . '.mp4');
 	    unlink ('images/videos/' . $nom_exp . '.webm');
 	    unlink ('images/videos/' . $nom_exp . '.oggtheora.ogv');
+	    unlink ('videos/' . $nom_exp . '.html');
 	}
 	
 	$requete = $bdd->prepare('DELETE FROM video WHERE nom = :nom');
