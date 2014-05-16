@@ -21,10 +21,10 @@
             		                <p>
                                     <label>Sélectionnez le type de média :</label>    
                                             
-                                    <input type="radio" name="type" id="image" value="Image" checked="checked" />
+                                    <input type="radio" name="type" id="image" value="image" checked="checked" />
                                     <label for="image">Image</label>
                                     
-                                    <input type="radio" name="type" id="video" value="Video" />
+                                    <input type="radio" name="type" id="video" value="video" />
                                     <label for="video">Video</label>
                                     </p>
             		        </fieldset>
