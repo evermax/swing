@@ -9,6 +9,7 @@
         
             if (strip_tags($_POST['titre']) !== '' && strip_tags($_POST['legende']) !== '')
             {
+                $pseudo = $_SESSION['pseudo'];
                 $titre = $_POST['titre'];
                 $legende = $_POST['legende'];
                 $filename = $_FILES['uploadFile']['name'];
