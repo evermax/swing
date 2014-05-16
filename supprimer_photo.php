@@ -11,6 +11,6 @@ if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
 	
 	unlink ('images/carousel_images/' . $nom);
 	
-	header('Location: gestion_images.php');
+	header('Location: gestion_images.php?modification=supprimer');
 }
 ?>
