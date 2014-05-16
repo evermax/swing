@@ -85,22 +85,29 @@
 				            $nom = explode(".", $donnees['nom'])[0] ?>
 				            
 				            <p>
-                            <table class="table_videos" cellspacing="0" cellpadding="0" >
-            	                <tr>
-            	                    <td rowspan="2">
-            	                        <div class="photo">
-                    	                    <img src="images/videos/<?php echo $nom ?>.png" alt="<?php echo $nom ?>" />
-            	                        </div>
-            	                    </td>
-            	                    <td class="titre_video">
-            	                        <a href="videos/<?php echo $nom ?>.html" class="liens" title="Cliquez pour regarder la vidéo !"><?php echo $donnees['titre'] ?></a>
-            	                    </td>
-            	                </tr>
-            	                
-            	                <tr>
-            	                    <td class="bottom" ><?php echo $donnees['legende']; ?></td>
-            	                </tr>
-            	            </table>
+				            <table>
+				                <tr>
+				                    <td>
+				                        <div class="miniature">
+				                            <a href="videos/<?php echo $nom ?>.html" class="liens" title="Cliquez pour regarder la vidéo !"><img src="images/videos/<?php echo $nom ?>.png" alt="<?php echo $nom ?>" /></a>
+				                        </div>
+				                    </td>
+				                    
+				                    <td>
+                                        <table class="table_videos" cellspacing="0" cellpadding="0" >
+                        	                <tr>
+                        	                    <td class="titre_video">
+                        	                        <?php echo $donnees['titre'] ?>
+                        	                    </td>
+                        	                </tr>
+                        	                
+                        	                <tr>
+                        	                    <td class="bottom" ><?php echo $donnees['legende']; ?></td>
+                        	                </tr>
+                        	            </table>
+                    	            </td>
+                    	        </tr>
+                	        </table>
             	            </p>
                             <?php
                         }

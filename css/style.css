@@ -317,34 +317,44 @@ figure
 
 .table_videos
 {
+    width: 550px;
+    display: inline-block;
     margin: auto;
-    width: 700px;
 }
 
-.table_videos img
+.miniature
 {
-    margin-left: -5px;
-    max-width: 100%;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.miniature img
+{
     max-height: 100%;
+    max-width: 100%;
 }
 
 .titre_video
 {
     text-align: center;
+    width: 550px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
     background-color: #7F7F7F;
     margin-bottom: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0px;
 }
 
 .bottom
 {
     margin-top: 0px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    width: 550px;
+    padding-bottom: 0px 5px 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #BFBFBF;
