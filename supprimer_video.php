@@ -14,7 +14,7 @@ if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
 	
 	if ($donnees['formate'] !== '0')
     {
-	    $nom_exp = explode(".", $donnees['nom'])[0]
+	    $nom_exp = explode(".", $donnees['nom'])[0];
 	
 	    unlink ('images/videos/' . $nom_exp . '.mp4');
 	    unlink ('images/videos/' . $nom_exp . '.webm');
