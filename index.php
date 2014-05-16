@@ -53,10 +53,9 @@
                         <em>Les enfants</em> : Chloé, Arthur et Félix, aides</p>
                     </aside>
                     
-                    <p>La S’WING est une aile (wing) pendulaire (swing) qui  repose sur le principe d’un parapente transposé sur un plan horizontal. Tout comme celui-ci, l’aile, de par son profil, adopte une incidence donnée par rapport au vent qu’elle rencontre (dans le cas de l’aile, par rapport à son vent relatif qui dépend du vent météo et du déplacement du bateau, cap et vitesse). Donc quel que soit le cap choisi, l’incidence de l’aile reste toujours optimale sans intervention (Cf. animation vs voiliers classiques). La seule contrainte de la S’Wing est qu’elle ne vire que vent arrière (manœuvre qui ne nécessite qu’une inversion du profil de l’aile et se fait aisément).<p>
+                    <p>La S’WING est une aile (wing) pendulaire (swing) qui  repose sur le principe d’un parapente transposé sur un plan horizontal. Tout comme celui-ci, l’aile, de par son profil, adopte une incidence donnée par rapport au vent qu’elle rencontre (dans le cas de l’aile, par rapport à son vent relatif qui dépend du vent météo et du déplacement du bateau, cap et vitesse). Donc quel que soit le cap choisi, l’incidence de l’aile reste toujours optimale sans intervention. La seule contrainte de la S’Wing est qu’elle ne vire que vent arrière (manœuvre qui ne nécessite qu’une inversion du profil de l’aile et se fait aisément).<p>
                     <p>De plus, l’inclinaison de la voile au vent permet d’avoir, comme sur les planches à voile ou les kites (ou le Sail Rocket), une traction ascendante sur le bateau (à la différence des voiles classiques qui l’écrasent dans l’eau).<br />
                     Cette aile permet de tracter tout engin capable de maintenir un cap sur eau, sol dur, glace, neige… en fonction des équipements (flotteurs, foils, roues, patins, skis…).</p>
-		            
                 </section>
                 
                 <p></p>
@@ -65,6 +64,14 @@
                     <h1>Fonctionnement en image</h1>
                     
                     <img src="images/accueil/fonctionnement.png" alt="Fonctionnement en image" />
+                </section>
+                
+                <p></p>
+                
+                <section class="center">
+                    <h1>Fonctionnement en vidéo</h1>
+                    
+                    <video controls src="images/accueil/imaginez.avi">Fonctionnement en video<video/>
                 </section>
             </div>
             <?php include("footer.php"); ?>

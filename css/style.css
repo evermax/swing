@@ -184,6 +184,11 @@ section aside h3
     border-radius: 10px;
 }
 
+.center
+{
+    text-align: center;
+}
+
 /********************** PAGE DESCRIPTION **********************/
 .tableau_comparatif
 {
