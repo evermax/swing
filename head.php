@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/gallery.theme.css" />
     <link rel="stylesheet" href="css/gallery.min.css" />
 
+    <script type="text/javascript" src="js/jquery-1.3.1.min.js"></script>
 	<script type="text/javascript" src="js/external/_oldies/jquery-1.3.min.js"></script>
 	<script type="text/javascript" src="js/external/jquery.easing.1.3.min.js"></script>
 	<script type="text/javascript" src="js/external/jquery.mousewheel.min.js"></script>
@@ -43,6 +44,28 @@
 			
 		});	
 	</script>
+	
+	<script type="text/javascript">
+        $(document).ready(function () {
+            $("a").click(function () {
+                page = ($(this).attr("href"));
+                $.ajax({
+                    url: page,
+                    cache: false,
+                    success: function (html) {
+                        afficher(html);
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrows) {}
+                });
+                return false;
+            });
+        });
+
+        function afficher(donnees) {
+            $("#contenu").empty();
+            $("#contenu").append(donnees);
+        }
+    </script>
 	
 	<link rel="stylesheet" type="text/css" href="css/sliderkit-core.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="css/sliderkit-demos.css" media="screen, projection" />

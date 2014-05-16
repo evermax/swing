@@ -289,6 +289,24 @@ figure
     max-height: 100%;
 }
 
+#contenu
+{
+    width: 900px;
+    height: 500px;
+    text-align: center;
+}
+
+#contenu img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.lien a
+{
+    text-decoration: none;
+}
+
 /********************** PAGE NEWS **********************/
 .billet
 {
