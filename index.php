@@ -71,7 +71,11 @@
                 <section class="center">
                     <h1>Fonctionnement en vidéo</h1>
                     
-                    <video controls src="images/accueil/imaginez.avi">Fonctionnement en video<video/>
+                    <video width="600" controls="">
+                        <source src="images/accueil/imaginez.mp4"></source>
+                        <source src="images/accueil/imaginez.webmhd.webm"></source>
+                        <source src="images/accueil/imaginez.oggtheora.ogv"></source>
+                    <video/>
                 </section>
             </div>
             <?php include("footer.php"); ?>
