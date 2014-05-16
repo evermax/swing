@@ -41,12 +41,12 @@
         	        <div class="news">
             	            <table class="billet" cellspacing="0" cellpadding="0" >
             	                <tr>
-            	                    <th class="auteur"><?php echo $donnees['auteur']; ?></th>
-            	                    <th><h1><?php echo $donnees['titre']; ?></h1></th>
+            	                    <td class="auteur"><?php echo $donnees['auteur']; ?></td>
+            	                    <td><h1><?php echo $donnees['titre']; ?></h1></td>
             	                </tr>
             	                
             	                <tr>
-            	                    <th rowspan="2">
+            	                    <td rowspan="2">
             	                        <div class="photo">
                     	                    <?php
                     	                    if ($donnees['auteur'] == "Chloe")
@@ -63,12 +63,12 @@
                     	                    }
                     	                    ?>
             	                        </div>
-            	                    </th>
-            	                    <th class="contenu" > <?php echo $donnees['contenu']; ?> </th>
+            	                    </td>
+            	                    <td class="contenu" > <?php echo $donnees['contenu']; ?> </td>
             	                </tr>
             	                
             	                <tr>
-            	                    <th class="date" >le <em> <?php echo $donnees['date_creation_fr']; ?></em></th>
+            	                    <td class="date" >le <em> <?php echo $donnees['date_creation_fr']; ?></em></td>
             	                </tr>
             	            </table>
             	            <br />
