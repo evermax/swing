@@ -70,26 +70,29 @@ header
 
 .titre_principal
 {
-    display: inline-block;
+    width: 250px;
+    height: 75px;
+}
+
+#logo
+{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 0px;
 }
 
 /********************* Navigation *********************/
 nav
 {
-    display: inline-block;
     text-align: right;
-    width : 750px;
+    width : 900px;
 }
 
 nav li
 {
     display: inline-block;
     margin-right: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    float : left;
-    height: 22px;
+    padding: 5px 10px;
 }
 
 nav a
@@ -108,7 +111,6 @@ nav a
 
 .onglets
 {
-    position : absolute;
     list-style-type : none;
     margin-top : 0;
 }
