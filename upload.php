@@ -64,7 +64,7 @@
                             {
                                 $error = 'OK';
                 	
-                        		$req = $bdd->prepare('INSERT INTO video (nom, titre, legende) VALUES (:nom, :titre, :legende)');
+                        		$req = $bdd->prepare('INSERT INTO video (nom, titre, legende, formate) VALUES (:nom, :titre, :legende, 0)');
                         		$req->execute(array('nom' => $filename, 'titre' => $titre, 'legende' => $legende));
                         		$toChloe = "chloe.brouzes@hotmail.fr";
                         		$toMaxime = "maxlasserre@free.fr";
