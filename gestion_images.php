@@ -8,14 +8,17 @@
     <?php
     	if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
     	{
-    		$pseudo = $_SESSION['pseudo'];
+    		$auteur = $_SESSION['pseudo'];
     		?>
     		<div class="bloc_page">
     		    <?php
                     include("menu_admin.php");
                     include("base.inc.php");
-                    $reponse = $bdd->query('SELECT nom, titre, legende FROM legende_carousel ORDER BY id');
-                    $rep = $bdd->query('SELECT nom, titre, legende FROM video ORDER BY id');
+                    $reponse = $bdd->prepare('SELECT nom, titre, legende FROM legende_carousel WHERE auteur=:auteur ORDER BY id');
+                    $reponse->execute(array('auteur' => $auteur));
+                    
+                    $rep = $bdd->prepare('SELECT nom, titre, legende FROM video WHERE auteur=:auteur ORDER BY id');
+                    $rep->execute(array('auteur' => $auteur));
                 ?>
                 
                 <div class="corps">

@@ -9,7 +9,7 @@
         
             if (strip_tags($_POST['titre']) !== '' && strip_tags($_POST['legende']) !== '')
             {
-                $pseudo = $_SESSION['pseudo'];
+                $auteur = $_SESSION['pseudo'];
                 $titre = $_POST['titre'];
                 $legende = $_POST['legende'];
                 $filename = str_replace(" ", "_", $_FILES['uploadFile']['name']);
@@ -31,8 +31,8 @@
                             {
                                 $error = 'OK';
                 	
-                        		$req = $bdd->prepare('INSERT INTO legende_carousel (nom, titre, legende) VALUES (:nom, :titre, :legende)');
-                        		$req->execute(array('nom' => $filename, 'titre' => $titre, 'legende' => $legende));
+                        		$req = $bdd->prepare('INSERT INTO legende_carousel (auteur, nom, titre, legende) VALUES (:auteur, :nom, :titre, :legende)');
+                        		$req->execute(array('auteur' =>$auteur, 'nom' => $filename, 'titre' => $titre, 'legende' => $legende));
                             }
                             else // Si ça ne fonctionne pas
                             {
@@ -65,12 +65,12 @@
                             {
                                 $error = 'OK';
                 	
-                        		$req = $bdd->prepare('INSERT INTO video (nom, titre, legende, formate) VALUES (:nom, :titre, :legende, 0)');
-                        		$req->execute(array('nom' => $filename, 'titre' => $titre, 'legende' => $legende));
+                        		$req = $bdd->prepare('INSERT INTO video (auteur, nom, titre, legende, formate) VALUES (:auteur, :nom, :titre, :legende, 0)');
+                        		$req->execute(array('auteur' => $auteur, 'nom' => $filename, 'titre' => $titre, 'legende' => $legende));
                         		$toChloe = "chloe.brouzes@hotmail.fr";
                         		$toMaxime = "maxlasserre@free.fr";
                                 $subject = "Ajout video";
-                                $email = "Une vidéo vient d'être ajoutée par " . $pseudo . ".\nElle se nomme " . $filename . ".\nIl faut maintenant la mettre aux bons formats.\nBon courage !\n\nCordialement,\nLa messagerie automatique.\n\n\nCe mail est automatique, vous êtes priez de ne pas répondre ! Si il ne vous est pas destiné, merci de ne pas en tenir compte et d'avertir immédiatement le propriétaire du site.";
+                                $email = "Une vidéo vient d'être ajoutée par " . $auteur . ".\nElle se nomme " . $filename . ".\nIl faut maintenant la mettre aux bons formats.\nBon courage !\n\nCordialement,\nLa messagerie automatique.\n\n\nCe mail est automatique, vous êtes priez de ne pas répondre ! Si il ne vous est pas destiné, merci de ne pas en tenir compte et d'avertir immédiatement le propriétaire du site.";
                                 $headers   = array();
                                 $headers[] = "MIME-Version: 1.0";
                                 $headers[] = "Content-type: text/plain; charset=UTF-8";
