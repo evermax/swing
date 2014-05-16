@@ -92,7 +92,7 @@
                     	                    <img src="images/videos/<?php echo $nom ?>.png" alt="<?php echo $nom ?>" />
             	                        </div>
             	                    </td>
-            	                    <td>
+            	                    <td class="titre_video">
             	                        <a href="videos/<?php echo $nom ?>.html" class="liens" title="Cliquez pour regarder la vidéo !"><?php echo $donnees['titre'] ?></a>
             	                    </td>
             	                </tr>
