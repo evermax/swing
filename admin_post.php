@@ -6,7 +6,7 @@ if ($_POST['pseudo'] !== null && strip_tags($_POST['mdp']) !== null)
 	$mdp_hache = sha1(strip_tags($_POST['mdp']));
 	
 	include("base.inc.php");
-	$req = $bdd->prepare('SELECT id FROM admin WHERE pseudo = :pseudo AND mdp = :mdp');
+	$req = $bdd->prepare('SELECT id FROM admin WHERE BINARY pseudo = :pseudo AND mdp = :mdp');
 	$req->execute(array('pseudo' => $pseudo, 'mdp' => $mdp_hache));
 	
 	$donnees = $req->fetch();
