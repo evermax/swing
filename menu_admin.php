@@ -13,4 +13,4 @@
         </ul>
     </nav>
 </header>
-<script src="onglet_admin.js"></script>
+<script type="text/javascript" src="js/onglet_admin.js"></script>
