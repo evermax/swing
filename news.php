@@ -41,27 +41,16 @@
         	        <div class="news">
             	            <table class="billet" cellspacing="0" cellpadding="0" >
             	                <tr>
-            	                    <td class="auteur"><?php echo $donnees['auteur']; ?></td>
+            	                    <td class="auteur">
+            	                        <?php echo ucfirst(strtolower($donnees['auteur'])); ?>
+            	                    </td>
             	                    <td><h1><?php echo $donnees['titre']; ?></h1></td>
             	                </tr>
             	                
             	                <tr>
             	                    <td rowspan="2">
             	                        <div class="photo">
-                    	                    <?php
-                    	                    if ($donnees['auteur'] == "Chloe")
-                    	                    {
-                    	                    ?>
-                    	                            <img src="images/icones/lion.jpg" alt="<?php echo $donnees['auteur']; ?>" />
-                    	                    <?php
-                    	                    }
-                    	                    else if ($donnees['auteur'] == "Maxime")
-                    	                    {
-                    	                    ?>
-                    	                        <img src="images/icones/singe.jpg" alt="<?php echo $donnees['auteur']; ?>" />
-                    	                    <?php
-                    	                    }
-                    	                    ?>
+                    	                    <img src="images/icones/<?php echo $donnees['auteur'] ?>.jpg" alt="<?php echo $donnees['auteur']; ?>" />
             	                        </div>
             	                    </td>
             	                    <td class="contenu" > <?php echo $donnees['contenu']; ?> </td>
