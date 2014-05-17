@@ -73,7 +73,7 @@
 				<section>
 				    <h1>Vidéos</h1>
 				
-				    <div id="contenu">
+				    <div id="contenu_video">
 				        <img src="images/videos/video.jpg" alt="VIDEOS" />
 				    </div>
 				

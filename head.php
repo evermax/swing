@@ -62,8 +62,8 @@
         });
 
         function afficher(donnees) {
-            $("#contenu").empty();
-            $("#contenu").append(donnees);
+            $("#contenu_video").empty();
+            $("#contenu_video").append(donnees);
         }
     </script>
 	

@@ -21,26 +21,27 @@
                 ?>
                 
                 <div class="corps">
-                    <h1>Modification du titre et du contenu d'un billet</h1>
-                    
                     <form action="modifier_billet_post.php?billet=<?php echo $id ?>" method="post">
-                        <table>
-        		            <tr>
-        		                <td><label for="titre">Titre :</label></td>
-        		                <td><input id="titre" name="titre" type="text" value="<?php echo $donnees['titre'] ?>" /></td>
-        		            </tr>
-        		            
-        		            <tr>
-            		    	    <td><label for="contenu">Contenu :</label></td>
-            		    	    <td><textarea id="contenu" rows="3" cols="60" name="contenu" maxlength="250" ><?php echo $donnees['contenu'] ?></textarea></td>
-        		            </tr>
-        		            
-        		            <tr></tr>
-        		            
-            		    	<tr>
-            		    	    <td colspan="2" ><input type="submit" value="Modifier" /></td>
-                            </tr>
-    		            </table>
+                        <fieldset>
+                            <legend><strong>Modification du titre et du contenu d'un billet</strong></legend>
+                            <table>
+            		            <tr>
+            		                <td><label for="titre">Titre :</label></td>
+            		                <td><input id="titre" name="titre" type="text" value="<?php echo $donnees['titre'] ?>" /></td>
+            		            </tr>
+            		            
+            		            <tr>
+                		    	    <td><label for="contenu">Contenu :</label></td>
+                		    	    <td><textarea id="contenu" rows="4" cols="100" name="contenu" maxlength="250" ><?php echo $donnees['contenu'] ?></textarea></td>
+            		            </tr>
+            		            
+            		            <tr></tr>
+            		            
+                		    	<tr>
+                		    	    <td colspan="2" ><input type="submit" value="Modifier" /></td>
+                                </tr>
+        		            </table>
+    		            </fieldset>
                     </form>
                 </div>
                 
