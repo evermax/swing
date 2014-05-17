@@ -48,9 +48,9 @@
                     <aside>
                         <h3>Une participation sur 3 générations</h3>
                         
-                        <p><em>Le grand-père</em> : Paul, calculs et brevet<br />
-                        <em>Le père et la mère</em> : Frédéric, construction et tests prototypes, et Gisèle, aides<br />
-                        <em>Les enfants</em> : Chloé, Arthur et Félix, aides</p>
+                        <p><em>Le grand-père</em> : <strong>Paul</strong>, calculs et brevet<br />
+                        <em>Le père et la mère</em> : <strong>Frédéric</strong>, construction et tests prototypes, et <strong>Gisèle</strong>, participation aux essais des prototypes<br />
+                        <em>Les enfants</em> : <strong>Chloé</strong>, <strong>Arthur</strong> et <strong>Félix</strong>, participation aux essais des prototypes</p>
                     </aside>
                     
                     <p>La S’WING est une aile (wing) pendulaire (swing) qui  repose sur le principe d’un parapente transposé sur un plan horizontal. Tout comme celui-ci, l’aile, de par son profil, adopte une incidence donnée par rapport au vent qu’elle rencontre (dans le cas de l’aile, par rapport à son vent relatif qui dépend du vent météo et du déplacement du bateau, cap et vitesse). Donc quel que soit le cap choisi, l’incidence de l’aile reste toujours optimale sans intervention. La seule contrainte de la S’Wing est qu’elle ne vire que vent arrière (manœuvre qui ne nécessite qu’une inversion du profil de l’aile et se fait aisément).<p>
@@ -60,16 +60,8 @@
                 
                 <p></p>
                 
-                <section>
-                    <h1>Fonctionnement en image</h1>
-                    
-                    <img src="images/accueil/fonctionnement.png" alt="Fonctionnement en image" />
-                </section>
-                
-                <p></p>
-                
                 <section class="center">
-                    <h1>Fonctionnement en vidéo</h1>
+                    <h1>Illustration</h1>
                     
                     <video width="600" controls="">
                         <source src="images/accueil/imaginez.mp4"></source>
