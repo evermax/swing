@@ -55,10 +55,10 @@ section
     padding: 10px;
 }
 
-section img
+img
 {
-    max-width: 100%;
     max-height: 100%;
+    max-width: 100%;
 }
 
 /********************* Header *********************/
@@ -141,6 +141,7 @@ footer
     margin: auto;
 }
 
+
 /********************* PAGE ACCUEIL *********************/
 article, aside
 {
@@ -151,14 +152,14 @@ article, aside
 
 article
 {
-    width: 600px;
+    width: 550px;
     margin-right: 5px;
 }
 
 aside
 {
     position: relative;
-    width: 200px;
+    width: 250px;
     background-color: #7F7F7F;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
@@ -245,12 +246,6 @@ section aside h3
     margin: auto;
 }
 
-.gallery img
-{
-    max-width: 100%;
-    max-height: 100%;
-}
-
 figure
 {
     margin: 0;
@@ -279,14 +274,6 @@ figure
 .sliderkit-panel img
 {
     height: 500px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.sliderkit-nav-clip img
-{
-    max-width: 100%;
-    max-height: 100%;
 }
 
 #contenu
@@ -294,12 +281,6 @@ figure
     width: 830px;
     height: 500px;
     text-align: center;
-}
-
-#contenu img
-{
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .div_videos a
@@ -328,12 +309,6 @@ figure
     width: 200px;
     height: 100px;
     margin-left: 50px;
-}
-
-.miniature img
-{
-    max-height: 100%;
-    max-width: 100%;
 }
 
 .titre_video
@@ -416,12 +391,6 @@ figure
     width: 60px;
 }
 
-.photo img
-{
-    max-height: 100%;
-    max-width: 100%;
-}
-
 .pagination
 {
     text-align: center;
@@ -461,12 +430,6 @@ figure
     width: 400px;
     height: 200px;
     text-align: center;
-}
-
-.image_supp img
-{
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .texte_supp
