@@ -35,7 +35,7 @@ body
 
 .corps h1
 {
-    color: #44C7DA;
+    color: rgb(48, 179, 198);
     text-align: center;
     font-size:1.5em;
     text-shadow: 2px 2px 3px #FFFFFF;
@@ -44,9 +44,11 @@ body
 
 .corps h2
 {
-    color: #000000;
+    color: #44C7DA;
     text-align: left;
     font-size:1.5em;
+    text-shadow: 2px 2px 3px #FFFFFF;
+    text-transform: uppercase;
 }
 
 section
@@ -348,6 +350,8 @@ section aside h3
     background-color: #7F7F7F;
     color: white;
     font-size: 1em;
+    text-shadow: none;
+    text-transform: none;
     margin-bottom: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
