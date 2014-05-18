@@ -20,7 +20,10 @@
                         Un voilier qui ne gîte pas, qui ne se renverse pas.<br />
                         Un voilier que le vent n’écrase pas sur l’eau, mais au contraire soulage comme les kites ou les planches à voile et qui plane d’autant plus que le vent forcit.</p>
 
-                        <p class="center mise_en_valeur"><strong>Ce voilier existe !</strong></p>
+                        <div class="pinceau">
+                            <img src="images/icones/pinceau_grand.png" />
+                            <p class="center pinceau_grand mise_en_valeur"><strong>Ce voilier existe !</strong></p>
+                        </div>
                     </article>
 		
                     <aside>

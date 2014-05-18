@@ -38,13 +38,13 @@ body
     color: rgb(48, 179, 198);
     text-align: center;
     font-size:1.5em;
-    text-shadow: 2px 2px 3px #FFFFFF;
+    text-shadow: 2px 2px 3px rgb(200, 200, 200);;
     text-transform: uppercase;
 }
 
 .corps h2
 {
-    color: #44C7DA;
+    color: rgb(48, 179, 198);
     text-align: left;
     font-size:1.5em;
     text-shadow: 2px 2px 3px #FFFFFF;
@@ -73,6 +73,19 @@ img
 .mise_en_valeur
 {
     font-size: 1.2em;
+}
+
+.pinceau
+{
+    width: 178px;
+    height: 60px;
+    margin: auto;
+}
+
+.pinceau_grand
+{
+    position: relative;
+    top: -60px;
 }
 
 
