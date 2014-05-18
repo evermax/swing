@@ -35,11 +35,10 @@ body
 
 .corps h1
 {
-    color: rgb(48, 179, 198);
+    color: rgb(68, 199, 218);
     text-align: center;
     font-size:1.5em;
-    /*text-shadow: 2px 2px 3px rgb(200, 200, 200);*/
-    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    text-shadow: 1px 1px 0px rgb(100, 100, 100);
     text-transform: uppercase;
 }
 
@@ -168,6 +167,7 @@ footer
     width: 54px;
     height: 30px;
     margin: auto;
+    cursor: pointer;
 }
 
 
