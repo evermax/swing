@@ -1,8 +1,6 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/gallery.theme.css" />
-    <link rel="stylesheet" href="css/gallery.min.css" />
 
     <script type="text/javascript" src="js/jquery-1.3.1.min.js"></script>
 	<script type="text/javascript" src="js/external/_oldies/jquery-1.3.min.js"></script>

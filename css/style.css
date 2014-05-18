@@ -61,6 +61,17 @@ img
     max-width: 100%;
 }
 
+.center
+{
+    text-align: center;
+}
+
+.mise_en_valeur
+{
+    font-size: 1.2em;
+}
+
+
 /********************* Header *********************/
 header
 {
@@ -70,8 +81,8 @@ header
 
 .titre_principal
 {
-    width: 250px;
-    height: 75px;
+    width: 320px;
+    height: 90px;
 }
 
 #logo
@@ -175,20 +186,21 @@ section aside h3
     color: white;
 }
 
-#banniere_image
-{
-    margin-top: 20px;
-}
-
 .panoramique
 {
     border-radius: 10px;
 }
 
-.center
+.gallery
 {
-    text-align: center;
+    width: 850px;
+    height: 284px;
+    margin: auto;
+    box-shadow: 2px 2px 3px #7A7B7F;
+    border-radius: 10px;
+    margin-top: 20px;
 }
+
 
 /********************** PAGE DESCRIPTION **********************/
 .tableau_comparatif
@@ -231,26 +243,6 @@ section aside h3
 }
 
 /********************** PAGE IMAGES **********************/
-/********************** Carousel **********************/
-.gallery
-{
-    width: 800px;
-    height: 500px;
-    margin: auto;
-}
-
-.autoplay
-{
-    width: 849px;
-    height: 283px;
-    margin: auto;
-}
-
-figure
-{
-    margin: 0;
-}
-
 /********************** Nouveau Carousel **********************/
 #standardPhotosgallery
 {
