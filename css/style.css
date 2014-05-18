@@ -5,11 +5,6 @@
 }
 
 @font-face {
-    font-family: 'Calibri';
-    src: url('../polices/CALIBRI.TTF');
-}
-
-@font-face {
     font-family: 'Comfortaa';
     src: url('../polices/Comfortaa-Regular.ttf');
 }
@@ -17,7 +12,7 @@
 body
 {   
     background-color: rgb(238, 238, 238);
-    font-family: Calibri, Dayrom, serif;
+    font-family: Dayrom, serif;
 }
 
 .bloc_page
