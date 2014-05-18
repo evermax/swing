@@ -82,15 +82,10 @@ img
     margin: auto;
 }
 
-.pinceau img
-{
-
-}
-
 .pinceau_grand
 {
     position: relative;
-    top: -60px;
+    top: -70px;
 }
 
 
