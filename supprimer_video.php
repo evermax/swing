@@ -6,14 +6,10 @@ if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
 	$nom = strip_tags($_GET['video']);
 	
 	include("base.inc.php");
-	$requete = $bdd->prepare('DELETE FROM video WHERE nom = :nom');
-	$requete->execute(array('nom' => $nom));
-		
-	unlink ('images/videos/' . $nom);
 
 	$req = $bdd->prepare('SELECT formate FROM video WHERE nom = :nom');
 	$req->execute(array('nom' => $nom));
-	$donnees = $reponse->fetch();
+	$donnees = $req->fetch();
 	
 	if ($donnees['formate'] !== '0')
     {
@@ -24,6 +20,11 @@ if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
 	    unlink ('images/videos/' . $nom_exp . '.oggtheora.ogv');
 	    unlink ('videos/' . $nom_exp . '.html');
 	}
+	
+	$requete = $bdd->prepare('DELETE FROM video WHERE nom = :nom');
+	$requete->execute(array('nom' => $nom));
+	
+	unlink ('images/videos/' . $nom);
 	
 	header('Location: gestion_images.php?modification=supprimer');
 }
