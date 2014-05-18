@@ -78,7 +78,7 @@
 				    </div>
 				
 				    <div class="div_videos">
-				    <p class="center"><strong>Cliquer sur l'apperçu de la vidéo pour la regarder !</strong></p>
+				    <p class="center"><strong>Cliquer sur l'aperçu de la vidéo pour la regarder !</strong></p>
 				    <?php
 				        $rep = $bdd->query('SELECT * FROM video WHERE formate=1 ORDER BY id');
 				        while($donnees = $rep->fetch())

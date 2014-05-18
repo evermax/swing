@@ -42,7 +42,7 @@
                 <p></p>
                 
                 <section class="center">
-                    <h1>Illustration</h1>
+                    <h1>Le principe</h1>
                     
                     <video width="600" controls="">
                         <source src="images/accueil/imaginez.mp4"></source>
