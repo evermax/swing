@@ -74,7 +74,7 @@
 				    <h1>Vidéos</h1>
 				
 				    <div id="contenu_video">
-				        <img src="images/videos/video.jpg" alt="VIDEOS" />
+				        <img src="images/videos/video.png" alt="VIDEOS" />
 				    </div>
 				
 				    <div class="div_videos">
