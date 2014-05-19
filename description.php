@@ -28,7 +28,7 @@
                 <p></p>
                 
                 <section>
-                    <h1>Les avantages de S'Wing</h1>
+                    <h1>Les avantages de la S'Wing</h1>
                     
                     <table class="tableau_comparatif">
                         <tr class="ro1">
