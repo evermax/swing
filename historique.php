@@ -23,7 +23,7 @@
                     
                     <p><img src="images/historique/Triul 4 theorie.jpg" alt="Théorie du Triul" /></p>
                     
-                    <p>Ce projet a fait l'objet d'un <strong>dépôt de brevet</strong>, le 29 octobre 1992.<br />Pour accéder à ces documents, cliquez <a href="images/historique/Triul 5 Ptc2.jpg">ici</a> ou <a href="images/historique/Triul 6 Ptc.jpg">là</a>.</p>
+                    <p>Ce projet a fait l'objet d'un <strong>dépôt de brevet</strong>, le 29 octobre 1992.<br />Pour accéder à ces documents, cliquez <a href="images/historique/Triul 5 Ptc2.jpg">ici</a> ou <a href="images/historique/Triul 6 Pct.jpg">là</a>.</p>
                 </section>
                 
                 <p></p>
