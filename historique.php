@@ -19,29 +19,27 @@
                 <p></p>
                 
                 <section>
-                    <h1>Théorie du Triul</h1>
+                    <h1>Le Triul : théorie et prototypes</h1>
                     
-                    <p><img src="images/historique/Triul 4 theorie.jpg" alt="Théorie du Triul" /></p>
+                    <p><img src="images/historique/Sit Triul.png" alt="Théorie et prototype du Triul" /></p>
+                </section>
+                
+                <p></p>
+                
+                <section>
+                    <h1>Le Triul : publications</h1>
+                    
+                    <p><img src="images/historique/Sit publications.png" alt="Publications Triul" /></p>
+                </section>
+                
+                <p></p>
+                
+                <section>
+                    <h1>Le Triul : brevet</h1>
+                    
+                    <p><img src="images/historique/Sit Brev.png" alt="Brevet Triul" /></p>
                     
                     <p>Ce projet a fait l'objet d'un <strong>dépôt de brevet</strong>, le 29 octobre 1992.<br />Pour accéder à ces documents, cliquez <a href="images/historique/Triul 5 Ptc2.jpg">ici</a> ou <a href="images/historique/Triul 6 Pct.jpg">là</a>.</p>
-                </section>
-                
-                <p></p>
-                
-                <section>
-                    <h1>Diplôme d'inventeur</h1>
-                    
-                    <p><img src="images/historique/Triul 7 (S. Geneve).jpg" alt="Diplôme : Salon international des inventions et des techniques nouvelles - Genève 1991" /></p>
-                    
-                    <p><img src="images/historique/Triul 8 (S. Geneve).JPG" alt="Médaille d'argent" /></p>
-                </section>
-                
-                <p></p>
-                
-                <section>
-                    <h1>Prototypes du Triul</h1>
-                    
-                    <p><img src="images/historique/Triul 2.jpg" alt="Images prototype Triul" /></p>
                 </section>
             </div>
             <?php include("footer.php"); ?>
