@@ -18,6 +18,18 @@
                 
                 <p></p>
                 
+                <section class="center">
+                    <h1>S'Wing : Historique des prototypes</h1>
+                    
+                    <video width="600" controls="">
+                        <source src="images/historique/Historique proto Swing 2014_2.mp4"></source>
+                        <source src="images/historique/Historique proto Swing 2014_2.webmhd.webm"></source>
+                        <source src="images/historique/Historique proto Swing 2014_2.oggtheora.ogv"></source>
+                    <video/>
+                </section>
+                
+                <p></p>
+                
                 <section>
                     <h1>Le Triul : théorie et prototypes</h1>
                     
