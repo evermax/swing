@@ -28,12 +28,13 @@
                 
                 <section>
                     <h1>Le Triul : démonstration en vidéo</h1>
-                    
-                    <video width="600" controls="">
-                        <source src="images/triul/video_triul.mp4"></source>
-                        <source src="images/triul/video_triul.webm"></source>
-                        <source src="images/triul/video_triul.oggtheora.ogv"></source>
-                    <video/>
+                    <p class="center">
+                        <video width="600" controls="">
+                            <source src="images/triul/video_triul.mp4"></source>
+                            <source src="images/triul/video_triul.webm"></source>
+                            <source src="images/triul/video_triul.oggtheora.ogv"></source>
+                        <video/>
+                    </p>
                 </section>
                 
                 <p></p>
