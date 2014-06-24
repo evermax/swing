@@ -16,7 +16,7 @@
                     <p>Pour envoyer un mail à Fred, cliquez <a href="mailto:fwifred@hotmail.fr?subject=S'Wing">ici</a>.</p>
                     
                     <h2>Contacter Paul</h2>
-                    <p>Pour envoyer un mail à Paul, cliquez <a href="mailto:">là</a>.</p>
+                    <p>Pour envoyer un mail à Paul, cliquez <a href="mailto:polenbato@orange.fr?subject=S'Wing">là</a>.</p>
                 </section>
             </div>
             <?php include("footer.php"); ?>
