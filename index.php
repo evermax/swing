@@ -27,7 +27,7 @@
                     </article>
 		
                     <aside>
-                        <h3>Une participation sur 3 générations</h3>
+                        <h3>3 générations de BROUZES</h3>
                         
                         <p><em>Le grand-père</em> : <strong>Paul</strong>, calculs et brevet<br />
                         <em>Le père et la mère</em> : <strong>Frédéric</strong>, construction et tests prototypes, et <strong>Gisèle</strong>, soutien logistique<br />
