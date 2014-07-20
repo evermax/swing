@@ -17,6 +17,9 @@
                     
                     <h2>Contacter Paul</h2>
                     <p>Pour envoyer un mail à Paul, cliquez <a href="mailto:polenbato@orange.fr?subject=S'Wing">là</a>.</p>
+                    
+                    <h2>Contacter Chloé</h2>
+                    <p>Pour envoyer un mail à Chloé, cliquez <a href="mailto:sunshai_sun971@hotmail.com?subject=S'Wing">ici</a>.</p>
                 </section>
             </div>
             <?php include("footer.php"); ?>
