@@ -27,7 +27,7 @@
         		    {
             		    if ($_GET["modification"] == "enregistre")
             		    {
-            		        echo("Les modifications ont bien été enregistrée !");
+            		        echo("Les modifications ont bien été enregistrées !");
             		    }
             		    if ($_GET["modification"] == "vide")
             		    {
