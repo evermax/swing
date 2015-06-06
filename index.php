@@ -3,6 +3,7 @@
     <?php include("head.php"); ?>
     
     <body>
+        <?php include_once("analyticstracking.php")?>
         <div class="bloc_page">
             <?php
             include("menus.php");
